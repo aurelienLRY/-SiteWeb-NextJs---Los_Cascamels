@@ -24,8 +24,8 @@ export const AboutSection = () => {
       <article className="flex flex-col lg:flex-row gap-5 items-center justify-evenly w-full max-w-[1400px] py-20 ">
         <div className="flex flex-1 items-center justify-center ">
           <Image
-            src="/img/kids1.png"
-            alt="dessin d'un enfant sur un stylo"
+            src="/img/kids5.png"
+            alt="dessin d'enfants jouant ensemble"
             width={1080}
             height={1080}
             className="max-w-[500px] w-[60%] md:w-[80%]"
