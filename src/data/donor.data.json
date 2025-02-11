@@ -1,0 +1,34 @@
+{
+  "donorData": [
+    {
+      "description": "Fière de soutenir cette initiative éducative qui transforme la vie des enfants. Un investissement dans l'avenir !",
+      "urlImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marie",
+      "name": "Marie Dubois"
+    },
+    {
+      "description": "En tant qu'ancien enseignant, je sais combien l'éducation est précieuse. Heureux de contribuer à ce projet innovant.",
+      "urlImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Pierre",
+      "name": "Pierre Martin"
+    },
+    {
+      "description": "La pédagogie alternative m'a toujours passionnée. C'est un plaisir de participer à cette belle aventure éducative.",
+      "urlImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sophie",
+      "name": "Sophie Laurent"
+    },
+    {
+      "description": "Convaincu par l'approche unique de Los Cascamels. Un projet qui mérite d'être soutenu !",
+      "urlImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Thomas",
+      "name": "Thomas Bernard"
+    },
+    {
+      "description": "Je donne pour que chaque enfant puisse avoir accès à une éducation de qualité et épanouissante.",
+      "urlImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Claire",
+      "name": "Claire Moreau"
+    },
+    {
+      "description": "Impressionné par la vision et les valeurs de l'école. Je suis ravi de pouvoir contribuer à son développement.",
+      "urlImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Lucas",
+      "name": "Lucas Petit"
+    }
+  ]
+}

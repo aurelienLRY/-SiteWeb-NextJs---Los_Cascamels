@@ -1,8 +1,30 @@
+"use client";
+
+import React from "react";
+import {
+  HeroSection,
+  AboutSection,
+  OurPedagogy,
+  OurValues,
+  DonorSection,
+  OurClassesHomePage,
+  ContactSection,
+} from "@/components";
+
+/**
+ * Home page
+ * @returns {JSX.Element}
+ */
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-4xl font-title text-pink">Hello</h1>
-      <p className="text-lg">description</p>
-    </main>
+    <React.Fragment>
+      <HeroSection />
+      <AboutSection />
+      <OurPedagogy />
+      <OurValues />
+      <DonorSection />
+      <OurClassesHomePage />
+      <ContactSection />
+    </React.Fragment>
   );
 }

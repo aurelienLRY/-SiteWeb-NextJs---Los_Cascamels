@@ -1,6 +1,31 @@
 import type { Config } from "tailwindcss";
 import { nextui } from "@nextui-org/react";
-import { themeColors } from "./src/styles/ThemeColors";
+import { tailwindTheme, nextUITheme } from "./src/styles/ThemeColors";
+
+// Fonction pour générer la safelist à partir des couleurs du thème
+const generateSafelist = () => {
+  const colors = tailwindTheme.light;
+  const safelistItems: string[] = [];
+
+  // Parcourir toutes les couleurs
+  Object.entries(colors).forEach(([colorName, colorValue]) => {
+    if (typeof colorValue === "object") {
+      // Pour les couleurs avec des variantes (comme pink-300)
+      Object.keys(colorValue).forEach((shade) => {
+        safelistItems.push(`bg-${colorName}-${shade}`);
+        safelistItems.push(`text-${colorName}-${shade}`);
+        safelistItems.push(`border-${colorName}-${shade}`);
+      });
+    } else {
+      // Pour les couleurs simples (comme primary)
+      safelistItems.push(`bg-${colorName}`);
+      safelistItems.push(`text-${colorName}`);
+      safelistItems.push(`border-${colorName}`);
+    }
+  });
+
+  return safelistItems;
+};
 
 export default {
   content: [
@@ -19,31 +44,16 @@ export default {
         subtitle: ["var(--font-shadows-into-light-two)", "cursive"],
       },
       colors: {
-        ...themeColors.light,
-        dark: themeColors.dark,
+        ...tailwindTheme.light,
+        dark: tailwindTheme.dark,
       },
     },
   },
+  safelist: generateSafelist(),
   plugins: [
     nextui({
-      addCommonColors: true,
+      themes: nextUITheme.themes,
       defaultTheme: "light",
-      themes: {
-        light: {
-          colors: {
-            ...themeColors.light,
-            background: themeColors.light.background,
-            foreground: themeColors.light.primary,
-          },
-        },
-        dark: {
-          colors: {
-            ...themeColors.dark,
-            background: themeColors.dark.background,
-            foreground: themeColors.dark.primary,
-          },
-        },
-      },
     }),
   ],
 } satisfies Config;

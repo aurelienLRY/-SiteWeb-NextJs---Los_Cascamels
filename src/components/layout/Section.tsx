@@ -1,3 +1,5 @@
+"use client";
+
 import React, { ReactNode, useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -6,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 /* components */
 import { Clouds } from "@/components";
 
-interface ISectionProps {
+interface ISectionProps extends React.HTMLAttributes<HTMLElement> {
   children: ReactNode;
   className?: string;
   showTopClouds?: boolean;
@@ -14,7 +16,7 @@ interface ISectionProps {
   cloudsColor?: string;
 }
 
-interface IParallaxSectionProps {
+interface IParallaxSectionProps extends React.HTMLAttributes<HTMLElement> {
   children: ReactNode;
   className?: string;
   backgroundImage: string;
@@ -27,13 +29,14 @@ interface IParallaxSectionProps {
 
 export const Section = ({
   children,
-  className = "",
+  className = "bg-white",
   showTopClouds = false,
   showBottomClouds = false,
   cloudsColor = "text-white",
+  ...props
 }: ISectionProps) => {
   return (
-    <section className={`relative ${className}`}>
+    <section className={`relative ${className}`} {...props}>
       {showTopClouds && (
         <div className="absolute -top-1 left-0 w-full overflow-hidden z-20">
           <Clouds className={`w-full ${cloudsColor}`} />
@@ -91,7 +94,7 @@ export const ParallaxSection = ({
       <Section {...sectionProps} className={`${className} overflow-hidden`}>
         <div
           ref={backgroundRef}
-          className="absolute inset-0 w-full h-[150%] -top-[25%]"
+          className="absolute inset-0 w-full h-[150%] -top-[25%] bg-cover bg-center opacity-50"
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: "cover",

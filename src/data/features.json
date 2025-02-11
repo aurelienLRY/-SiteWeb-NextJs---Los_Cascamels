@@ -4,42 +4,42 @@
       "motif": "🏢",
       "title": "Éducation alternative",
       "description": "Une approche active et personnalisée pour révéler le potentiel de chaque enfant",
-      "bgColor": "bg-bleu-ciel",
+      "bgColor": "bg-purple",
       "textColor": "text-white"
     },
     {
       "motif": "🌍",
       "title": "Bilinguisme",
       "description": "Un apprentissage immersif en occitan et en français, ouvrant de nouvelles perspectives",
-      "bgColor": "bg-bleu-ciel",
+      "bgColor": "bg-lightBlue",
       "textColor": "text-white"
     },
     {
       "motif": "❤️",
       "title": "Bienveillance",
       "description": "Un environnement où chaque élève se sent valorisé et respecté",
-      "bgColor": "bg-bleu-ciel",
+      "bgColor": "bg-primary",
       "textColor": "text-white"
     },
     {
       "motif": "🤝",
       "title": "Communauté",
       "description": "Une coopération entre familles, enseignants et bénévoles pour un projet commun",
-      "bgColor": "bg-bleu-ciel",
+      "bgColor": "bg-pink",
       "textColor": "text-white"
     },
     {
       "motif": "🌟",
       "title": "Inclusion",
       "description": "Une école ouverte à tous, respectueuse des différences et des singularités",
-      "bgColor": "bg-bleu-ciel",
+      "bgColor": "bg-secondary",
       "textColor": "text-white"
     },
     {
       "motif": "🎓",
       "title": "Transmission culturelle",
       "description": "Préserver et partager le patrimoine occitan avec les générations futures",
-      "bgColor": "bg-bleu-ciel",
+      "bgColor": "bg-green",
       "textColor": "text-white"
     }
   ]
