@@ -4,7 +4,6 @@
  */
 import React from "react";
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 /**
  * Interface pour les éléments de navigation
