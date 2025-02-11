@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { ContactSection } from "@/components";
 import {
   HeroSection,
   AboutSection,
@@ -8,9 +9,7 @@ import {
   OurValues,
   DonorSection,
   OurClassesHomePage,
-  ContactSection,
-} from "@/components";
-
+} from "@/components/section/homePage";
 /**
  * Home page
  * @returns {JSX.Element}

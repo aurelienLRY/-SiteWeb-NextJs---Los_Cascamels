@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 import { Section } from "@/components";
 import Image from "next/image";
 
@@ -48,13 +48,15 @@ export const AboutSection = () => {
             bénévoles, notre école défend une éducation inclusive, ouverte sur
             le monde et enracinée dans les traditions régionales.
           </p>
-          <Button
-            color="primary"
-            size="lg"
-            className="text-white font-title mt-5"
-          >
-            En savoir plus
-          </Button>
+          <Link href="/a-propos">
+            <Button
+              color="primary"
+              size="lg"
+              className="text-white font-title mt-5"
+            >
+              En savoir plus
+            </Button>
+          </Link>
         </div>
       </article>
     </Section>

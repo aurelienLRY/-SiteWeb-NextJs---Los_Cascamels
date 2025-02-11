@@ -11,20 +11,6 @@ export { SunIcon } from "@/components/icons/SunIcon";
 
 /*Section components */
 export { ContactSection } from "@/components/section/ContactSection";
-/*Home page */
-export { HeroSection } from "@/components/section/homePage/HeroSection.homePage";
-export { AboutSection } from "@/components/section/homePage/AboutSection.homePage";
-export { OurPedagogy } from "@/components/section/homePage/OurPedagogy.homePage";
-export { OurValues } from "@/components/section/homePage/OurValues.homePage";
-export { DonorSection } from "@/components/section/homePage/DonorSection.homePage";
-export { OurClassesHomePage } from "@/components/section/homePage/ourClasses.homePage";
-
-/*About page */
-export { HeroSectionAboutPage } from "@/components/section/aboutPage/HeroSection.aboutPage";
-export { ValuesSection } from "@/components/section/aboutPage/ValuesSection.aboutPage";
-export { AssoSchool } from "@/components/section/aboutPage/assoSchool.aboutPage";
-export { Capacity } from "@/components/section/aboutPage/capacity.aboutPage";
-export { Commission } from "@/components/section/aboutPage/commission.aboutPage";
 
 /*Card components */
 export { Card } from "@/components/card/Card";

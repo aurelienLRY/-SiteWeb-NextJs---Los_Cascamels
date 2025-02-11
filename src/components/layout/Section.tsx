@@ -25,6 +25,7 @@ interface IParallaxSectionProps extends React.HTMLAttributes<HTMLElement> {
   cloudsColor?: string;
   splashTop?: boolean;
   splashBottom?: boolean;
+  opacity?: string;
 }
 
 export const Section = ({
@@ -36,7 +37,7 @@ export const Section = ({
   ...props
 }: ISectionProps) => {
   return (
-    <section className={`relative ${className}`} {...props}>
+    <section className={`relative px-8 lg:px-16 py-24 ${className}`} {...props}>
       {showTopClouds && (
         <div className="absolute -top-1 left-0 w-full overflow-hidden z-20">
           <Clouds className={`w-full ${cloudsColor}`} />
@@ -56,6 +57,7 @@ export const ParallaxSection = ({
   children,
   className = "",
   backgroundImage,
+  opacity = "opacity-50",
   ...sectionProps
 }: IParallaxSectionProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -94,7 +96,7 @@ export const ParallaxSection = ({
       <Section {...sectionProps} className={`${className} overflow-hidden`}>
         <div
           ref={backgroundRef}
-          className="absolute inset-0 w-full h-[150%] -top-[25%] bg-cover bg-center opacity-50"
+          className={`absolute inset-0 w-full h-[150%] -top-[25%] bg-cover bg-center ${opacity}`}
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: "cover",
@@ -103,7 +105,7 @@ export const ParallaxSection = ({
             willChange: "transform",
           }}
         />
-        <div ref={contentRef} className="relative h-full">
+        <div ref={contentRef} className="relative h-full py-24 lg:py-4">
           {children}
         </div>
       </Section>

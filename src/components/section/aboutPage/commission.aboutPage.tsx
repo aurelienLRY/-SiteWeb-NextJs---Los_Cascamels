@@ -10,7 +10,7 @@ import {
 export const Commission = () => {
   return (
     <ParallaxSection
-      className="py-5 md:py-48 bg-bleuRoyale min-h-[80vh] px-2"
+      className="py-5 md:py-48 bg-bleuRoyale min-h-[80vh] flex justify-center items-center"
       showTopClouds
       backgroundImage="/img/Sky2.webp"
       id="capacity"

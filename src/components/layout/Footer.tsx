@@ -17,24 +17,16 @@ interface NavItem {
 }
 
 /**
- * Interface pour les réseaux sociaux
- * @interface SocialLink
- */
-interface SocialLink {
-  href: string;
-  icon: React.ReactNode;
-  label: string;
-}
-
-/**
  * Configuration des liens de navigation
  * @constant {NavItem[]}
  */
 const NAV_ITEMS: NavItem[] = [
   { href: "/", label: "Accueil" },
-  { href: "/about", label: "À propos" },
-  { href: "/services", label: "Nos services" },
   { href: "/contact", label: "Contact" },
+  { href: "#", label: "Blog" },
+  { href: "#", label: "FAQ" },
+  { href: "#", label: "Mentions légales" },
+  { href: "#", label: "Politique de confidentialité" },
 ];
 
 /**
@@ -42,13 +34,9 @@ const NAV_ITEMS: NavItem[] = [
  * @constant {NavItem[]}
  */
 const USEFUL_LINKS: NavItem[] = [
-  { href: "#", label: "Blog" },
-  { href: "#", label: "FAQ" },
-  { href: "#", label: "Mentions légales" },
-  { href: "#", label: "Politique de confidentialité" },
   {
-    href: "https://calandreta.org/",
-    label: "La fédération Calandreta",
+    href: "https://www.facebook.com/CalandretaRieux/",
+    label: "Facebook",
     external: true,
   },
   {
@@ -56,20 +44,11 @@ const USEFUL_LINKS: NavItem[] = [
     label: "HelloAsso",
     external: true,
   },
-];
-
-/**
- * Configuration des réseaux sociaux
- * @constant {SocialLink[]}
- */
-const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://www.facebook.com/CalandretaRieux/",
-    icon: <FaFacebook aria-hidden="true" />,
-    label: "Facebook",
+    href: "https://calandreta.org/",
+    label: "La fédération Calandreta",
+    external: true,
   },
-  { href: "#", icon: <FaInstagram aria-hidden="true" />, label: "Instagram" },
-  { href: "#", icon: <FaYoutube aria-hidden="true" />, label: "YouTube" },
 ];
 
 /**
@@ -79,9 +58,9 @@ const SOCIAL_LINKS: SocialLink[] = [
 const STYLES = {
   footer: "relative bg-bleuRoyale py-8 ",
   background:
-    "absolute inset-0 bg-[url('/img/Sky2.png')] bg-cover bg-center opacity-30",
+    "absolute inset-0 bg-[url('/img/Sky2.webp')] bg-cover bg-center opacity-30",
   container: "container mx-auto px-4 relative z-10 text-white",
-  grid: "grid grid-cols-1 md:grid-cols-4 gap-8",
+  grid: "grid grid-cols-1 md:grid-cols-3 gap-8 ",
   section: "space-y-2",
   heading: "text-xl font-bold mb-4",
   link: "hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md px-2 py-1",
@@ -108,21 +87,6 @@ const FooterLink = ({ href, label, external }: NavItem) => (
 );
 
 /**
- * Composant pour les liens sociaux
- * @component SocialLink
- */
-const SocialLinkComponent = ({ href, icon, label }: SocialLink) => (
-  <Link
-    href={href}
-    className={STYLES.socialLink}
-    aria-label={label}
-    target="_blank"
-  >
-    {icon}
-  </Link>
-);
-
-/**
  * Composant principal du pied de page
  * @component Footer
  */
@@ -136,7 +100,7 @@ export const Footer = () => {
         <div className={STYLES.grid}>
           {/* Section Navigation */}
           <nav aria-label="Navigation du pied de page">
-            <h3 className={STYLES.heading}>Navigation</h3>
+            <p className={STYLES.heading}>Navigation</p>
             <ul className={STYLES.section}>
               {NAV_ITEMS.map((item, index) => (
                 <FooterLink key={`nav-${index}`} {...item} />
@@ -146,7 +110,7 @@ export const Footer = () => {
 
           {/* Section Contact */}
           <div>
-            <h3 className={STYLES.heading}>Contact</h3>
+            <p className={STYLES.heading}>Contact</p>
             <address className={STYLES.section}>
               <p>📍 123 Rue des Cascamels</p>
               <p>
@@ -164,19 +128,9 @@ export const Footer = () => {
             </address>
           </div>
 
-          {/* Section Réseaux Sociaux */}
-          <div>
-            <h3 className={STYLES.heading}>Suivez-nous</h3>
-            <div className={STYLES.socialContainer}>
-              {SOCIAL_LINKS.map((social, index) => (
-                <SocialLinkComponent key={`social-${index}`} {...social} />
-              ))}
-            </div>
-          </div>
-
           {/* Section Liens utiles */}
           <nav aria-label="Liens utiles">
-            <h3 className={STYLES.heading}>Liens utiles</h3>
+            <p className={STYLES.heading}>Liens utiles</p>
             <ul className={STYLES.section}>
               {USEFUL_LINKS.map((item, index) => (
                 <FooterLink key={`useful-${index}`} {...item} />

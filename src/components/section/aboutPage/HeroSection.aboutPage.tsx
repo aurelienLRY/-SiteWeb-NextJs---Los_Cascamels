@@ -1,25 +1,43 @@
+"use client";
+
 import Image from "next/image";
 import { Section } from "@/components";
+import { motion } from "framer-motion";
 
 export const HeroSectionAboutPage = () => {
   return (
     <Section
-      className=" bg-lightBlue bg-[url('/img/sky1.webp')] bg-cover bg-center xl:pb-48  min-h-[80vh] flex  justify-center items-center px-2"
+      className=" bg-lightBlue bg-[url('/img/sky1.2.webp')] bg-cover bg-center xl:pb-48  min-h-[80vh] flex  justify-center items-center "
       showBottomClouds
       cloudsColor="bg-transparent text-cream"
     >
-      <div className="flex flex-col xl:flex-row gap-4 justify-center items-center max-w-[1200px] mx-auto">
-        <aside className=" flex flex-1 justify-end items-center w-full xl:w-1/2 rounded-3xl overflow-hidden">
+      <motion.div
+        initial={{ y: 1200, x: 100 }}
+        animate={{ y: 100, x: 100 }}
+        transition={{ duration: 11, ease: "easeInOut" }}
+        className="absolute top-0 left-7 w-48  overflow-hidden"
+      >
+        <Image
+          src="/img/test.png"
+          alt="A propos"
+          width={800}
+          height={400}
+          className="object-cover "
+          loading="lazy"
+        />
+      </motion.div>
+      <div className="flex flex-col xl:flex-row gap-8 justify-center items-center max-w-[1400px]">
+        <aside className="  w-full xl:w-1/2 rounded-3xl overflow-hidden">
           <Image
             src="/img/school-1.webp"
             alt="A propos"
             width={800}
             height={400}
-            className="xl:rounded-3xl object-cover "
+            className=" object-cover "
             loading="lazy"
           />
         </aside>
-        <article className="flex flex-col flex-1 items-center gap-4 max-w-2xl text-center xl:text-left pb-40">
+        <article className="flex flex-col  items-center gap-4 max-w-2xl text-center xl:text-left pb-40 lg:pb-0">
           <div className="flex flex-col gap-2">
             <h2 className="text-2xl font-subtitle text-primary">
               Qui sommes-nous?

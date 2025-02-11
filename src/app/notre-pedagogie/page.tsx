@@ -1,9 +1,20 @@
 import React from "react";
-import { HeroSectionPedagogiePage } from "@/components/section/pedagogiePage/heroSection.padagogiePage";
+import {
+  HeroSectionPedagogyPage,
+  LearningLinguisticSection,
+  ActivePedagogySection,
+  EducationalMaterials,
+  BenefitsSection,
+} from "@/components/section/pedagogyPage";
+
 export default function NotrePedagogie() {
   return (
     <React.Fragment>
-      <HeroSectionPedagogiePage />
+      <HeroSectionPedagogyPage />
+      <LearningLinguisticSection />
+      <ActivePedagogySection />
+      <EducationalMaterials />
+      <BenefitsSection />
     </React.Fragment>
   );
 }

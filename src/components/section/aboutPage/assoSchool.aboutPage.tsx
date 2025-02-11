@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export const AssoSchool = () => {
   return (
-    <Section className="flex gap-4 justify-center items-center min-h-[40vh] md:py-14 px-2">
-      <div className="flex flex-1 items-center  p-10 max-w-2/5">
+    <Section className="flex flex-col lg:flex-row gap-4 justify-center items-center min-h-[40vh]  ">
+      <div className="flex items-center  p-10 max-w-2/5">
         <Image
           src="/img/meeting-1.webp"
           alt="A propos"
@@ -14,7 +14,7 @@ export const AssoSchool = () => {
           loading="lazy"
         />
       </div>
-      <div className="flex w-1/2 flex-col gap-8 justify-center items-center">
+      <div className="flex w-full  flex-col gap-8 justify-center items-center">
         <div className="flex flex-col gap-2 items-center text-center md:text-left">
           <h2 className="font-subtitle text-2xl text-primary w-full">
             Une école associative

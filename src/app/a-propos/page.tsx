@@ -1,15 +1,14 @@
 import React from "react";
 
+import { Section, PedagoTeamCard, ContactSection } from "@/components";
+
 import {
-  HeroSectionAboutPage,
-  Section,
-  PedagoTeamCard,
-  ValuesSection,
   AssoSchool,
   Capacity,
   Commission,
-  ContactSection,
-} from "@/components";
+  HeroSectionAboutPage,
+  ValuesSection,
+} from "@/components/section/aboutPage";
 
 const PEDAGO_TEAM = [
   {
@@ -46,7 +45,7 @@ export default function APropos() {
       <AssoSchool />
 
       <Commission />
-      <Section className="bg-cream flex flex-col gap-8 justify-center items-center min-h-[60vh] py-10 md:py-48 px-2">
+      <Section className="bg-cream flex flex-col gap-8 justify-center items-center min-h-[60vh]   ">
         <div className="flex flex-col gap-2 items-center text-center md:text-left">
           <h2 className="text-2xl font-subtitle text-primary">
             L’équipe pédagogique pour l’école primaire
