@@ -8,7 +8,7 @@ import Link from "next/link";
 export const DonorSection = () => {
   return (
     <Section
-      className="flex flex-col gap-10 items-center justify-center  h-full bg-lightBlue bg-[url('/img/Sky1.webp')] bg-cover bg-center py-20 min-h-[80vh]  "
+      className="flex flex-col gap-10 items-center justify-center  h-full bg-lightBlue bg-[url('/img/sky1.webp')] bg-cover bg-center py-20 min-h-[80vh]  "
       showTopClouds
       cloudsColor="text-cream"
     >
