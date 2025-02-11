@@ -8,7 +8,7 @@ import Link from "next/link";
 export const HeroSection = () => {
   return (
     <Section
-      className="flex items-center justify-around h-full bg-lightBlue bg-[url('/img/Sky1.webp')] bg-cover bg-center py-20"
+      className="flex items-center justify-around h-full bg-lightBlue bg-[url('/img/sky1.webp')] bg-cover bg-center py-20"
       showBottomClouds
       showTopClouds
     >

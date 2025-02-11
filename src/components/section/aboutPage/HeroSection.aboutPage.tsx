@@ -4,7 +4,7 @@ import { Section } from "@/components";
 export const HeroSectionAboutPage = () => {
   return (
     <Section
-      className=" bg-lightBlue bg-[url('/img/Sky1.webp')] bg-cover bg-center xl:pb-48  min-h-[80vh] flex  justify-center items-center px-2"
+      className=" bg-lightBlue bg-[url('/img/sky1.webp')] bg-cover bg-center xl:pb-48  min-h-[80vh] flex  justify-center items-center px-2"
       showBottomClouds
       cloudsColor="bg-transparent text-cream"
     >
