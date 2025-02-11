@@ -8,7 +8,7 @@ export const OurPedagogy = () => {
   return (
     <ParallaxSection
       className="flex flex-col gap-10 lg:flex-row items-center justify-center bg-bleuRoyale py-20 min-h-[80vh]"
-      backgroundImage="/img/Sky2.png"
+      backgroundImage="/img/Sky2.webp"
       showTopClouds
       id="pedagogy"
     >

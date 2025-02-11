@@ -4,14 +4,14 @@ import { Section } from "@/components";
 export const HeroSectionAboutPage = () => {
   return (
     <Section
-      className=" bg-lightBlue bg-[url('/img/Sky1.png')] bg-cover bg-center xl:pb-48  min-h-[80vh] flex  justify-center items-center px-2"
+      className=" bg-lightBlue bg-[url('/img/Sky1.webp')] bg-cover bg-center xl:pb-48  min-h-[80vh] flex  justify-center items-center px-2"
       showBottomClouds
       cloudsColor="bg-transparent text-cream"
     >
       <div className="flex flex-col xl:flex-row gap-4 justify-center items-center max-w-[1200px] mx-auto">
         <aside className=" flex flex-1 justify-end items-center w-full xl:w-1/2 rounded-3xl overflow-hidden">
           <Image
-            src="/img/school-1.jpg"
+            src="/img/school-1.webp"
             alt="A propos"
             width={800}
             height={400}

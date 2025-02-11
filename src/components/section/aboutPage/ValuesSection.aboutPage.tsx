@@ -9,7 +9,7 @@ export const ValuesSection = () => {
     >
       <aside className="flex flex-1 flex-col gap-2 max-w-xl">
         <Image
-          src="/img/Kids3.png"
+          src="/img/Kids3.webp"
           alt="Logo de l'école"
           width={1024}
           height={1024}

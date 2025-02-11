@@ -8,14 +8,14 @@ export const AboutSection = () => {
   return (
     <Section className="flex flex-col gap-10 lg:flex-row items-center justify-center py-5">
       <Image
-        src="/img/Planet1.png"
+        src="/img/Planet1.webp"
         alt="dessin d'un enfant sur un stylo"
         width={1080}
         height={1080}
         className="w-[10%] absolute top-0 left-0 hidden lg:block"
       />
       <Image
-        src="/img/Planet2.png"
+        src="/img/Planet2.webp"
         alt="dessin d'un enfant sur un stylo"
         width={350}
         height={350}
@@ -24,7 +24,7 @@ export const AboutSection = () => {
       <article className="flex flex-col lg:flex-row gap-5 items-center justify-evenly w-full max-w-[1400px] py-20 ">
         <div className="flex flex-1 items-center justify-center ">
           <Image
-            src="/img/kids5.png"
+            src="/img/kids1.webp"
             alt="dessin d'enfants jouant ensemble"
             width={1080}
             height={1080}

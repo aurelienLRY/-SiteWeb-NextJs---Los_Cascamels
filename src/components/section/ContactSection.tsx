@@ -59,7 +59,7 @@ export const ContactSection = ({ className }: { className?: string }) => {
 
       <div className="flex flex-col-reverse md:flex-row gap-8 justify-around items-center w-full">
         <div className="flex justify-center items-center flex-1">
-          <Image src="/img/Kids4.png" alt="Contact" width={500} height={500} />
+          <Image src="/img/Kids4.webp" alt="Contact" width={500} height={500} />
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}

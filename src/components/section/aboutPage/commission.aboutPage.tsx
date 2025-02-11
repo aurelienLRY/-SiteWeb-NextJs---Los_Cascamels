@@ -12,7 +12,7 @@ export const Commission = () => {
     <ParallaxSection
       className="py-5 md:py-48 bg-bleuRoyale min-h-[80vh] px-2"
       showTopClouds
-      backgroundImage="/img/Sky2.png"
+      backgroundImage="/img/Sky2.webp"
       id="capacity"
     >
       <article className="flex flex-col gap-2 items-center  text-white">

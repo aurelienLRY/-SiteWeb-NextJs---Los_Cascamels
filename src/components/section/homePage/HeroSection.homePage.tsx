@@ -8,7 +8,7 @@ import Link from "next/link";
 export const HeroSection = () => {
   return (
     <Section
-      className="flex items-center justify-around h-full bg-lightBlue bg-[url('/img/Sky1.png')] bg-cover bg-center py-20"
+      className="flex items-center justify-around h-full bg-lightBlue bg-[url('/img/Sky1.webp')] bg-cover bg-center py-20"
       showBottomClouds
       showTopClouds
     >
@@ -54,7 +54,7 @@ export const HeroSection = () => {
       </div>
       <div className="flex-1 hidden md:flex">
         <Image
-          src="/img/Fly1.png"
+          src="/img/Fly1.webp"
           alt="dessin d'un enfant sur un stylo"
           width={1080}
           height={1080}

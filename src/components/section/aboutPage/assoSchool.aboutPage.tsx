@@ -6,7 +6,7 @@ export const AssoSchool = () => {
     <Section className="flex gap-4 justify-center items-center min-h-[40vh] md:py-14 px-2">
       <div className="flex flex-1 items-center  p-10 max-w-2/5">
         <Image
-          src="/img/meeting-1.jpg"
+          src="/img/meeting-1.webp"
           alt="A propos"
           width={1024}
           height={1024}
