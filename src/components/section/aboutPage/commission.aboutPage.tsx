@@ -42,9 +42,9 @@ export const Commission = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-10 justify-items-center mt-10">
-          {items.map((item) => (
+          {items.map((item, index) => (
             <ItemsCard
-              key={`commission-${item.title}`}
+              key={`commission-${index}`}
               title={item.title}
               description={item.description}
               iconSize={60}

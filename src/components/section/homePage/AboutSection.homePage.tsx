@@ -24,7 +24,7 @@ export const AboutSection = () => {
       <article className="flex flex-col lg:flex-row gap-5 items-center justify-evenly w-full max-w-[1400px] py-20 ">
         <div className="flex flex-1 items-center justify-center ">
           <Image
-            src="/img/kids1.webp"
+            src="/img/Kids1.webp"
             alt="dessin d'enfants jouant ensemble"
             width={1080}
             height={1080}

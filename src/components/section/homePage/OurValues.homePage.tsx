@@ -29,7 +29,7 @@ export const OurValues = () => {
           ))}
         </div>
         <Image
-          src="/img/kids2.webp"
+          src="/img/Kids2.webp"
           alt="dessin d'un enfant sur un stylo"
           width={1080}
           height={1080}

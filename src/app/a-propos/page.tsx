@@ -15,19 +15,19 @@ const PEDAGO_TEAM = [
   {
     name: "John Doe",
     role: "Directrice",
-    urlImage: "/img/portrait/portrait_H_1.jpg",
+    urlImage: "/img/portrait/portrait_H_1.webp",
     color: "bleuRoyale",
   },
   {
     name: "Celine Léon",
     role: "instituteur CP à CE2",
-    urlImage: "/img/portrait/portrait_F_1.jpg",
+    urlImage: "/img/portrait/portrait_F_1.webp",
     color: "purple",
   },
   {
     name: "Cédric Léon",
     role: "instituteur CM1 à CM2",
-    urlImage: "/img/portrait/portrait_F_2.jpg",
+    urlImage: "/img/portrait/portrait_F_2.webp",
     color: "pink",
     socialLinks: {
       facebook: "https://www.facebook.com/cedric.leon.7",
