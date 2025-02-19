@@ -4,7 +4,7 @@ import { features } from "@/data/features.json";
 
 export const OurValues = () => {
   return (
-    <Section className="flex flex-col gap-10  items-center justify-center py-24 bg-cream ">
+    <Section className="flex flex-col gap-10  items-center justify-center py-24 ">
       <div className="flex flex-col gap-1 flex-1 items-center justify-center w-full max-w-[1600px] ">
         <h2 className="text-primary  font-subtitle">
           Des valeurs qui guident nos actions éducatives et culturelles

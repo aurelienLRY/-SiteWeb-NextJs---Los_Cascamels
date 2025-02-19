@@ -1,0 +1,121 @@
+{
+  "themes": [
+    {
+      "id": 1,
+      "title": "Notre École",
+      "items": [
+        {
+          "id": 1,
+          "question": "Qu'est-ce que la Calandreta et en quoi est-ce différent d'une école classique ?",
+          "response": [
+            "La Calandreta est un réseau d'écoles associatives, laïques et immersives en langue occitane.",
+            "Notre différence : une pédagogie active (inspirée de Freinet) qui place l'enfant au cœur de son apprentissage et valorise la participation, la coopération et la créativité.",
+            "Nous offrons un environnement bienveillant qui favorise l'autonomie, tout en développant une forte ouverture culturelle grâce à l'apprentissage précoce de l'occitan."
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Est-ce que le niveau scolaire est comparable aux écoles publiques ?",
+          "response": [
+            "Oui. Nos enseignants sont diplômés de l'Éducation nationale ou certifiés par des organismes reconnus, et l'école suit le socle commun de compétences (maternelle au primaire, voire plus selon l'implantation).",
+            "L'immersion occitane ne retarde pas les apprentissages en français ; au contraire, plusieurs études montrent que l'acquisition précoce d'une seconde langue renforce les compétences linguistiques globales."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pédagogie et Langue",
+      "items": [
+        {
+          "id": 2,
+          "question": "Faut-il que mon enfant ou moi-même parlions déjà l'occitan pour intégrer l'école ?",
+          "response": [
+            "Pas du tout. L'immersion occitane est progressive, pensée pour des familles qui ne parlent pas forcément la langue à la maison.",
+            "L'équipe pédagogique accompagne chaque enfant dans son parcours linguistique. Les parents bénéficient aussi de ressources pour comprendre et soutenir la démarche."
+          ]
+        },
+        {
+          "id": 3,
+          "question": "La pédagogie Freinet, comment ça fonctionne au quotidien ?",
+          "response": [
+            "C'est une méthode active qui mise sur l'expression libre (textes libres, ateliers d'écriture, débats), la collaboration (travail en petits groupes, tutorat entre élèves) et la valorisation de l'erreur pour progresser.",
+            "Les enfants sont acteurs de leurs apprentissages : ils proposent des projets, explorent leurs centres d'intérêt et participent à la gestion de la vie en classe (conseils de classe, rôles, missions).",
+            "Les « institutions » de la pédagogie institutionnelle (conseil, ceintures de compétences…) encadrent la coopération et le respect de chacun."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Vie Pratique",
+      "items": [
+        {
+          "id": 5,
+          "question": "Quelles sont les modalités d'inscription et la participation financière ?",
+          "response": [
+            "Nous sommes une école associative sous statut loi 1901. L'inscription est ouverte à tous, dans la limite des places disponibles.",
+            "Une participation financière est demandée aux familles pour contribuer aux frais de fonctionnement (locaux, matériel, projets), mais elle est modulée en fonction des situations.",
+            "Les détails pratiques (montant, échelonnement) sont fournis lors de la prise de contact ou dans notre rubrique « Inscription »."
+          ]
+        },
+        {
+          "id": 6,
+          "question": "Comment se passe la vie quotidienne à l'école (horaires, repas, garderie) ?",
+          "response": [
+            "Les horaires sont globalement alignés sur ceux de l'Éducation nationale, avec des aménagements spécifiques selon la localisation (accueil le matin, temps périscolaire).",
+            "Les repas peuvent être pris à la cantine si le service est assuré sur place, ou via un partenariat avec des structures externes (associations, collectivités).",
+            "Des activités périscolaires peuvent être proposées (ateliers culturels, jeux coopératifs), selon les disponibilités et l'implication des parents bénévoles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Communauté et Participation",
+      "items": [
+        {
+          "id": 7,
+          "question": "Quel est le rôle des parents au sein de l'école Calandreta ?",
+          "response": [
+            "Les parents sont partie prenante de l'association qui gère l'école ; ils peuvent intégrer des commissions (communication, festivités, mécénat, bricolage, etc.) et participer à la gouvernance.",
+            "Cette implication donne vie à la démarche coopérative et renforce les liens entre l'école et la famille, contribuant à la réussite éducative des enfants."
+          ]
+        },
+        {
+          "id": 8,
+          "question": "La Communication NonViolente (CNV), qu'apporte-t-elle dans les relations au sein de l'école ?",
+          "response": [
+            "La CNV offre un cadre de communication basé sur l'écoute, l'empathie et l'expression des besoins.",
+            "Elle est utilisée pour gérer les conflits de manière constructive, favoriser la coopération et cultiver un climat de confiance.",
+            "Les enfants apprennent à exprimer leurs émotions et à comprendre celles des autres, préparant ainsi à une vie sociale épanouie."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Perspectives et Soutien",
+      "items": [
+        {
+          "id": 9,
+          "question": "Quels sont les débouchés après la Calandreta ?",
+          "response": [
+            "Les élèves peuvent poursuivre dans le réseau Calandreta (collèges, lycées, selon les possibilités) ou intégrer une filière publique ou privée.",
+            "Les acquis linguistiques (français-occitan) restent un atout ; l'ouverture culturelle et la pédagogie active leur permettent de s'adapter aisément à d'autres établissements.",
+            "Les diplômes et parcours sont reconnus, de sorte que les enfants ne rencontrent pas d'obstacle particulier pour la suite de leurs études."
+          ]
+        },
+        {
+          "id": 10,
+          "question": "Comment puis-je soutenir l'école si je ne suis pas parent d'élève ?",
+          "response": [
+            "Faire un don : soutenir nos projets pédagogiques, nos investissements matériels ou nos événements culturels.",
+            "Devenir partenaire ou mécène : proposer des ressources (expertise, matériel, sponsoring) et contribuer au rayonnement local de la culture occitane.",
+            "Participer aux événements : animations, portes ouvertes, ateliers, manifestations festives… tout le monde est bienvenu pour découvrir l'école et s'impliquer."
+          ]
+        }
+      ]
+    }
+  ]
+}

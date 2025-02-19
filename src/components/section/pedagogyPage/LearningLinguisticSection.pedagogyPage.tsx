@@ -2,18 +2,17 @@ import { ParallaxSection } from "@/components";
 export const LearningLinguisticSection = () => {
   return (
     <ParallaxSection
-      className=" bg-red min-h-[80vh] flex justify-center items-center"
+      className=" bg-red min-h-[80vh] flex justify-center items-center "
       showTopClouds
-      showBottomClouds
       backgroundImage="/img/educator-teaching.webp"
-      opacity="opacity-30"
+      opacity="opacity-10"
     >
       <article className="flex flex-col gap-5  w-full max-w-[1200px] py-20 text-center md:text-start bg-red/30 backdrop-blur-lg rounded-xl p-2 text-white ">
         <div className="flex flex-col mt-10">
-          <h2 className="font-subtitle text-xl text-purple">
+          <h2 className="font-subtitle text-xl md:text-2xl text-primary">
             L’apprentissage par l’immersion linguistiquex
           </h2>
-          <h3 className=" font-title text-4xl md:text-6xl">
+          <h3 className=" font-title text-4xl md:text-6xl text-white">
             Grandir avec deux langues, un atout pour la vie.
           </h3>
         </div>

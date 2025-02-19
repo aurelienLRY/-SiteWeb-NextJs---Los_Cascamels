@@ -1,5 +1,7 @@
+"use client";
 import { ParallaxSection } from "@/components";
 import { IconType } from "react-icons";
+import { motion } from "framer-motion";
 import {
   GiMegaphone,
   GiReceiveMoney,
@@ -15,33 +17,59 @@ export const Commission = () => {
       backgroundImage="/img/Sky2.webp"
       id="capacity"
     >
-      <article className="flex flex-col gap-2 items-center  text-white">
-        <div className="flex flex-col gap-2 items-center  text-white">
+      <article className="flex flex-col gap-8 items-center  text-white">
+        <motion.div
+          className="flex flex-col gap-2 items-center  text-white"
+          initial={{ opacity: 0, y: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.8,
+            ease: "easeInOut",
+            delay: 0.2,
+          }}
+        >
           <h2 className="font-subtitle text-2xl text-primary ">
             Un fonctionnement participatif et collaboratif
           </h2>
           <h3 className="text-4xl md:text-6xl font-title">
             La vie d’école au quotidien
           </h3>
-        </div>
-        <div className="flex flex-col justify-center items-center gap-2  md:max-w-[80%] px-2 text-white">
-          <p className="text-justify md:text-left ">
+        </motion.div>
+        <div className="flex flex-col justify-center items-center gap-2  md:max-w-[1200px] px-2 text-white">
+          <motion.p
+            className="text-justify "
+            initial={{ opacity: 0, y: -100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.8,
+              ease: "easeInOut",
+              delay: 0.3,
+            }}
+          >
             Notre modèle repose sur des commissions actives composées de parents
-            et d’éducateurs. Ces espaces favorisent la concertation et
             l’engagement autour des projets communs, assurant une cohérence avec
             les valeurs de Calandreta.
-          </p>
-          <p className="text-justify md:text-left ">
+          </motion.p>
+          <motion.p
+            className="text-justify  "
+            initial={{ opacity: 0, y: -100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.8,
+              ease: "easeInOut",
+              delay: 0.3,
+            }}
+          >
             L&apos;école Calandreta repose sur une dynamique associative qui
             associe étroitement parents, enseignants, et collectivités locales.
             Dans ce cadre, les commissions jouent un rôle essentiel en
             structurant l’implication des parents autour de thèmes clés. Chaque
             commission fonctionne de manière autonome, avec un référent dédié
             qui assure la coordination avec le Conseil d’Administration
-          </p>
+          </motion.p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-10 justify-items-center mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16  justify-items-center mt-10">
           {items.map((item, index) => (
             <ItemsCard
               key={`commission-${index}`}
@@ -49,6 +77,7 @@ export const Commission = () => {
               description={item.description}
               iconSize={60}
               icon={item.icon}
+              index={index}
             />
           ))}
         </div>
@@ -62,6 +91,7 @@ interface ItemsCardProps {
   description: string;
   icon: IconType;
   iconSize: number;
+  index: number;
 }
 
 const ItemsCard = ({
@@ -69,16 +99,27 @@ const ItemsCard = ({
   description,
   icon: Icon,
   iconSize,
+  index,
 }: ItemsCardProps) => {
   return (
-    <div className="flex flex-col gap-2 items-center justify-center relative p-8 border-2 border-primary rounded-lg max-w-[300px] md:max-w-[400px] bg-darkBlue text-white">
+    <motion.div
+      className="flex flex-col gap-2 items-center justify-center relative p-8 border-2 border-primary rounded-lg max-w-[300px] md:max-w-[400px] bg-darkBlue text-white"
+      initial={{ opacity: 0, scale: 0 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 0.8,
+        ease: "easeInOut",
+        delay: 0.3 * (index / 0.8),
+      }}
+    >
       <Icon
         size={iconSize}
         className="text-white border-2 border-primary bg-darkBlue p-2 rounded-full absolute -top-2 left-1/2 -translate-x-1/2 -translate-y-1/2"
       />
       <h3 className="text-2xl font-title text-center">{title}</h3>
       <p className="text-center">{description}</p>
-    </div>
+    </motion.div>
   );
 };
 

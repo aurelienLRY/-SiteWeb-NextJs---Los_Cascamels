@@ -23,9 +23,8 @@ const NAV_ITEMS: NavItem[] = [
   { href: "/", label: "Accueil" },
   { href: "/contact", label: "Contact" },
   { href: "#", label: "Blog" },
-  { href: "#", label: "FAQ" },
-  { href: "#", label: "Mentions légales" },
-  { href: "#", label: "Politique de confidentialité" },
+  { href: "/faq", label: "FAQ" },
+  { href: "/mention-legal", label: "Mentions légales" },
 ];
 
 /**
@@ -48,6 +47,11 @@ const USEFUL_LINKS: NavItem[] = [
     label: "La fédération Calandreta",
     external: true,
   },
+  {
+    href: "https://revirada.eu/",
+    label: "Revirada - Traducteur occitan",
+    external: true,
+  },
 ];
 
 /**
@@ -59,7 +63,7 @@ const STYLES = {
   background:
     "absolute inset-0 bg-[url('/img/Sky2.webp')] bg-cover bg-center opacity-30",
   container: "container mx-auto px-4 relative z-10 text-white",
-  grid: "grid grid-cols-1 md:grid-cols-3 gap-8 ",
+  grid: "grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center text-center md:text-start",
   section: "space-y-2",
   heading: "text-xl font-bold mb-4",
   link: "hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md px-2 py-1",
@@ -111,17 +115,20 @@ export const Footer = () => {
           <div>
             <p className={STYLES.heading}>Contact</p>
             <address className={STYLES.section}>
-              <p>📍 123 Rue des Cascamels</p>
+              <p>
+                📍 Chemin de la Campagnette <br />
+                11160 Rieux-Minervois
+              </p>
               <p>
                 📞{" "}
                 <a href="tel:+33123456789" className={STYLES.link}>
-                  +33 1 23 45 67 89
+                  +33 6 18 85 70 64
                 </a>
               </p>
               <p>
                 ✉️{" "}
-                <a href="mailto:contact@cascamels.fr" className={STYLES.link}>
-                  contact@cascamels.fr
+                <a href="mailto:loscascamels@gmail.com" className={STYLES.link}>
+                  loscascamels@gmail.com
                 </a>
               </p>
             </address>

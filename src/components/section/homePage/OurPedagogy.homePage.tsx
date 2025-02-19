@@ -7,9 +7,10 @@ import Link from "next/link";
 export const OurPedagogy = () => {
   return (
     <ParallaxSection
-      className="flex flex-col gap-10 lg:flex-row items-center justify-center bg-bleuRoyale py-20 min-h-[80vh]"
+      className="flex flex-col gap-10 lg:flex-row items-center justify-center bg-bleuRoyale py-20 min-h-[90vh]"
       backgroundImage="/img/Sky2.webp"
       showTopClouds
+      showBottomClouds
       id="pedagogy"
     >
       <article className="flex flex-col gap-10 items-center justify-center">

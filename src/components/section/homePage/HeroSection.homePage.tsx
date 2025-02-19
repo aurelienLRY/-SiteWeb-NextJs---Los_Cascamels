@@ -1,16 +1,18 @@
 "use client";
 import { Button } from "@nextui-org/react";
 import { FaRegPaperPlane } from "react-icons/fa";
-import { Section } from "@/components";
+import { HeroSection as HeroSectionLayout } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 
 export const HeroSection = () => {
   return (
-    <Section
-      className="flex items-center justify-around h-full bg-lightBlue bg-[url('/img/sky1.webp')] bg-cover bg-center py-20"
-      showBottomClouds
-      showTopClouds
+    <HeroSectionLayout
+      props={{
+        showBottomClouds: true,
+        showTopClouds: true,
+        cloudsColor: "bg-lightBlue",
+      }}
     >
       <div className="flex flex-1 flex-col items-end justify-center ">
         <div className="flex flex-col items-center ">
@@ -60,7 +62,7 @@ export const HeroSection = () => {
           height={1080}
         />
       </div>
-    </Section>
+    </HeroSectionLayout>
   );
 };
 

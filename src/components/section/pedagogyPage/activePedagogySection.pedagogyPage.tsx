@@ -3,16 +3,17 @@ import { Card } from "@/components/card/Card";
 
 export const ActivePedagogySection = () => {
   return (
-    <Section className="flex flex-col gap-10 lg:flex-row items-center justify-center py-5">
+    <Section className="flex flex-col gap-10 lg:flex-row items-center justify-center py-5 min-h-[70vh]">
       <article className="flex flex-col gap-5  w-full max-w-[1200px] py-20 text-center md:text-start ">
         <div className="flex flex-col mt-10">
-          <h2 className="font-subtitle text-lightGray">
-            Une pédagogie active et participative{" "}
+          <h2 className="font-subtitle text-xl md:text-2xl text-lightGray">
+            Une pédagogie active et participative
           </h2>
+          <h3 className="text-4xl md:text-6xl font-title">
+            Un cadre structurant et motivant.
+          </h3>
         </div>
-        <h3 className="text-4xl md:text-6xl font-title">
-          Un cadre structurant et motivant.{" "}
-        </h3>
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
           quos.

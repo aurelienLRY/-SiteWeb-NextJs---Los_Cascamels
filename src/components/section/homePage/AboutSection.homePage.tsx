@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const AboutSection = () => {
   return (
-    <Section className="flex flex-col gap-10 lg:flex-row items-center justify-center py-5">
+    <Section className="flex flex-col gap-10 lg:flex-row items-center justify-center py-5 min-h-[70vh]">
       <Image
         src="/img/Planet1.webp"
         alt="dessin d'un enfant sur un stylo"

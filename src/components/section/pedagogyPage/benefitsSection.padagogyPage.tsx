@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export const BenefitsSection = () => {
   return (
-    <Section className="min-h-[40vh] flex flex-col lg:flex-row gap-10 justify-center items-center">
-      <aside className="w-full lg:w-1/2 max-w-[600px] flex justify-center items-center flex-1">
+    <Section className="min-h-[40vh] flex flex-col-reverse lg:flex-row gap-10 justify-center items-center bg-primary">
+      <aside className="w-full lg:w-1/2 max-w-[300px]   md:max-w-[600px] flex justify-center items-center flex-1">
         <Image
           src="/img/Kids2.webp"
           alt="benefits"
@@ -15,10 +15,10 @@ export const BenefitsSection = () => {
       </aside>
       <article className="flex flex-col gap-5 w-full max-w-[1200px] py-20 text-center md:text-start flex-1">
         <div className="">
-          <h2 className="font-subtitle text-xl">
+          <h2 className="font-subtitle text-xl md:text-2xl text-white">
             Les bénéfices pour l’enfant : apprendre en s’épanouissant
           </h2>
-          <h3 className="font-title text-4xl md:text-6xl">
+          <h3 className="font-title text-4xl md:text-6xl text-white">
             Une pédagogie qui prépare au monde de demain.
           </h3>
         </div>

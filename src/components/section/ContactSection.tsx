@@ -45,7 +45,7 @@ export const ContactSection = ({ className }: { className?: string }) => {
 
   return (
     <Section
-      className={`min-h-[60vh] flex flex-col justify-center items-center gap-8 py-10 w-full px-2 ${className}`}
+      className={`min-h-[60vh] flex flex-col justify-center items-center gap-8 py-10 w-full max-w-7xl mx-auto px-2 ${className}`}
       id="contact"
     >
       <div className="max-w-2xl mx-auto flex flex-col gap-2 items-center text-center md:text-left">

@@ -36,11 +36,11 @@ export const OurValuesCard = ({
         items-center 
         justify-center 
         shrink-0
-        ${className}
+        
       `}
       >
         {motif ? (
-          <span className="text-3xl">{motif}</span>
+          <span className="text-4xl">{motif}</span>
         ) : Icon ? (
           <Icon size={iconSize} className="p-2" />
         ) : null}
@@ -54,7 +54,7 @@ export const OurValuesCard = ({
         items === "LEFT"
           ? "flex-col text-center md:text-start"
           : "flex-col-reverse text-center md:text-end"
-      }`}
+      } ${className}`}
     >
       {items === "LEFT" && <Illustration />}
       <div className="flex flex-col flex-1">

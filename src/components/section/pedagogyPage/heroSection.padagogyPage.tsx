@@ -1,33 +1,21 @@
 "use client";
-import { Section } from "@/components";
+import { HeroSection as HeroSectionLayout } from "@/components";
 import { Button, Link } from "@nextui-org/react";
-import Image from "next/image";
+
 export const HeroSectionPedagogyPage = () => {
   return (
-    <Section className=" min-h-[60vh] flex justify-center items-center relative">
-      <div className=" w-40 h-40 absolute top-20 left-10 translate-y-1/2 z-30 hidden lg:block">
-        <Image
-          src="/img/Planet3.webp"
-          alt="Notre pédagogie"
-          width={200}
-          height={200}
-          className="object-cover"
-        />
-      </div>
-      <div className=" w-40 h-40 absolute bottom-36 right-10 translate-y-1/2 z-30 hidden lg:block">
-        <Image
-          src="/img/Planet4.webp"
-          alt="Notre pédagogie"
-          width={200}
-          height={200}
-          className="object-cover"
-        />
-      </div>
+    <HeroSectionLayout
+      props={{
+        showBottomClouds: true,
+        showTopClouds: true,
+        cloudsColor: "bg-lightBlue",
+      }}
+    >
       <div className="flex flex-col  flex-1 gap-3 items-center md:items-start justify-center max-w-[1000px] text-center md:text-start">
-        <h1 className=" text-xl font-subtitle text-primary">
+        <h1 className=" text-xl md:text-2xl font-subtitle text-white">
           Notre pédagogie : une approche immersive et innovante
         </h1>
-        <h2 className="text-4xl md:text-6xl font-title">
+        <h2 className="text-4xl md:text-6xl font-title text-secondary">
           Une méthode éducative ancrée dans l’expérience
         </h2>
         <p className=" italic font-semibold text-gray-500 text-center md:text-start">
@@ -48,6 +36,6 @@ export const HeroSectionPedagogyPage = () => {
           </Button>
         </Link>
       </div>
-    </Section>
+    </HeroSectionLayout>
   );
 };
