@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Provider from "./Provider";
 import {
   Roboto,
@@ -11,6 +10,9 @@ import "@/styles/globals.css";
 
 /* components */
 import { Header, Footer } from "@/components";
+
+// metadata
+export { metadata } from "./metadata";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -35,18 +37,6 @@ const shadowsIntoLightTwo = Shadows_Into_Light_Two({
   weight: ["400"],
   variable: "--font-shadows-into-light-two",
 });
-
-export const metadata: Metadata = {
-  title: "École primaire Los Cascamels - Rieux-Minervois",
-  description: "École primaire Los Cascamels - Rieux-Minervois",
-  keywords: [
-    "École primaire Los Cascamels",
-    "Rieux-Minervois",
-    "École éducative",
-    "Éducation innovante",
-    "École enracinée dans la culture occitane",
-  ],
-};
 
 export default function RootLayout({
   children,

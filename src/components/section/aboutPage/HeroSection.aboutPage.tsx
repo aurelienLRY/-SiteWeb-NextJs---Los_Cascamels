@@ -8,9 +8,7 @@ export const HeroSectionAboutPage = () => {
   return (
     <HeroSectionLayout
       props={{
-        showBottomClouds: true,
         showTopClouds: true,
-        cloudsColor: "bg-transparent text-cream",
       }}
     >
       <motion.div

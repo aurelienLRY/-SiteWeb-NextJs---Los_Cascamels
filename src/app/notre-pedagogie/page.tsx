@@ -7,7 +7,7 @@ import {
   EducationalMaterials,
   BenefitsSection,
 } from "@/components/section/pedagogyPage";
-
+import { ContactSection } from "@/components";
 export { metadata } from "./metadata";
 
 export default function NotrePedagogie() {
@@ -18,6 +18,7 @@ export default function NotrePedagogie() {
       <LearningLinguisticSection />
       <EducationalMaterials />
       <BenefitsSection />
+      <ContactSection />
     </React.Fragment>
   );
 }

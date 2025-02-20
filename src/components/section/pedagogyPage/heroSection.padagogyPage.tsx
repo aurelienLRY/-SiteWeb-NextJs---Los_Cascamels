@@ -8,7 +8,6 @@ export const HeroSectionPedagogyPage = () => {
       props={{
         showBottomClouds: true,
         showTopClouds: true,
-        cloudsColor: "bg-lightBlue",
       }}
     >
       <div className="flex flex-col  flex-1 gap-3 items-center md:items-start justify-center max-w-[1000px] text-center md:text-start">

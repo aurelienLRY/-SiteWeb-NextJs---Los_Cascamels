@@ -11,7 +11,6 @@ export const HeroSection = () => {
       props={{
         showBottomClouds: true,
         showTopClouds: true,
-        cloudsColor: "bg-lightBlue",
       }}
     >
       <div className="flex flex-1 flex-col items-end justify-center ">

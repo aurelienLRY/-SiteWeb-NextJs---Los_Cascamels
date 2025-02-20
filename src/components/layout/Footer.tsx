@@ -115,20 +115,23 @@ export const Footer = () => {
           <div>
             <p className={STYLES.heading}>Contact</p>
             <address className={STYLES.section}>
-              <p>
-                📍 Chemin de la Campagnette <br />
-                11160 Rieux-Minervois
-              </p>
+              <p>📍 {process.env.NEXT_PUBLIC_CONTACT_ADDRESS}</p>
               <p>
                 📞{" "}
-                <a href="tel:+33123456789" className={STYLES.link}>
-                  +33 6 18 85 70 64
+                <a
+                  href={`tel:${process.env.NEXT_PUBLIC_CONTACT_PHONE}`}
+                  className={STYLES.link}
+                >
+                  {process.env.NEXT_PUBLIC_CONTACT_PHONE}
                 </a>
               </p>
               <p>
                 ✉️{" "}
-                <a href="mailto:loscascamels@gmail.com" className={STYLES.link}>
-                  loscascamels@gmail.com
+                <a
+                  href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
+                  className={STYLES.link}
+                >
+                  {process.env.NEXT_PUBLIC_CONTACT_EMAIL}
                 </a>
               </p>
             </address>

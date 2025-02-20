@@ -39,6 +39,32 @@ h6 {
 
 .card-animation:hover {
   transform: scale(1.05);
-
   box-shadow: 0 0 20px rgba(1, 195, 142, 0.2);
+}
+
+/* Personnalisation de la barre de défilement */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a2e; /* Couleur de fond sombre */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffa41b; /* Couleur primary (orange) */
+  border-radius: 5px;
+  border: 2px solid #1a1a2e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8c00; /* Version plus foncée au survol */
+}
+
+/* Pour Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffa41b #1a1a2e;
 }

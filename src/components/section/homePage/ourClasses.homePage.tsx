@@ -24,7 +24,7 @@ export const OurClassesHomePage = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-5 md:gap-10 flex-1 items-center justify-center w-full ">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 flex-1 items-center justify-center w-full ">
         {classOrganization.map((item, index) => (
           <OurClassesCard key={index} {...item} />
         ))}
@@ -65,7 +65,7 @@ const OurClassesCard = ({
   bgColor?: string;
 }) => {
   return (
-    <div className="relative w-full max-w-[450px] rounded-2xl mb-36 ">
+    <div className="relative w-full max-w-[550px] rounded-2xl mb-36 ">
       <div className="w-full h-[250px] relative">
         <Image
           src={urlPhoto}
@@ -76,7 +76,7 @@ const OurClassesCard = ({
       </div>
 
       <div
-        className={`absolute -bottom-20 left-1/2 -translate-x-1/2 ${bgColor} p-6 rounded-3xl text-white w-full max-w-[90%] min-h-[200px]`}
+        className={`absolute -bottom-32 left-1/2 -translate-x-1/2 ${bgColor} p-6 rounded-3xl text-white w-full max-w-[90%] min-h-[200px] shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300`}
       >
         <h4 className="text-2xl font-title text-center mb-5">{titre}</h4>
         <p className="text-center">{description}</p>
