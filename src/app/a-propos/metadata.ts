@@ -18,11 +18,23 @@ export const metadata: Metadata = {
     description:
       "Une école immersive bilingue (occitan-français) élémentaire qui valorise la langue et la culture occitane tout en proposant une pédagogie active et bienveillante.",
     type: "website",
-    url: "https://www.calandreta-los-cascamels.fr/qui-sommes-nous",
+    url: `${process.env.NEXT_PUBLIC_URL}/a-propos`,
     images: [
       {
-        url: "https://www.calandreta-los-cascamels.fr/images/qui-sommes-nous.jpg",
+        url: `${process.env.NEXT_PUBLIC_URL}/img/open-graph/og-about.webp`,
+        width: 1200,
+        height: 630,
+        alt: "Qui sommes-nous ? - École Calandreta Los Cascamels",
       },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Qui sommes-nous ? - École Calandreta Los Cascamels",
+    description:
+      "Depuis 2009, la Calandreta Los Cascamels, école primaire immersive, transmet la langue et la culture occitane à travers une pédagogie active et bilingue (occitan-français).",
+    images: [
+      `${process.env.NEXT_PUBLIC_URL}/img/open-graph/og-about-twitter.webp`,
     ],
   },
 };

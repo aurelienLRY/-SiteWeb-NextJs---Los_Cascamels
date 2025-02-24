@@ -4,6 +4,7 @@ import { FaRegPaperPlane } from "react-icons/fa";
 import { HeroSection as HeroSectionLayout } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export const HeroSection = () => {
   return (
@@ -14,7 +15,12 @@ export const HeroSection = () => {
       }}
     >
       <div className="flex flex-1 flex-col items-end justify-center ">
-        <div className="flex flex-col items-center ">
+        <motion.div
+          initial={{ opacity: 0, y: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-col items-center "
+        >
           <p className="text-xl md:text-2xl text-center text-white font-subtitle">
             Bienvenue chez
           </p>
@@ -51,7 +57,7 @@ export const HeroSection = () => {
               </Button>
             </Link>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div className="flex-1 hidden md:flex">
         <Image

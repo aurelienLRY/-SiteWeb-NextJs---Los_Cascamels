@@ -9,35 +9,35 @@
     },
     {
       "motif": "🗣️",
-      "title": "Lo conselh | Le conseil",
+      "title": "Lo conselh",
       "description": " Le conseil a lieu une fois par semaine, selon un déroulé établi et des tours de parole ; il est animé par les élèves eux-mêmes. Le conseil permet de réguler la vie de groupe, instituer des règles de vie, mettre en place des projets collectifs, déterminer les rôles au sein de la classe, etc.",
       "bgColor": "bg-lightBlue",
       "textColor": "text-white"
     },
     {
       "motif": "🌳",
-      "title": "Escol de la fouresst | École de la forêt",
+      "title": "Escol de la fouresst",
       "description": "Un projet pédagogie qui vise à sensibilisé les enfants à la protection de l'environnement aux travers de demi-journées à l'extérieur",
       "bgColor": "bg-primary ",
       "textColor": "text-white"
     },
     {
       "motif": "🤝",
-      "title": "Presentassou de caousos | Présentation de choses",
+      "title": "Presentassou de caousos",
       "description": "Ce rituel d’expression orale est utilisé en classe de maternelle et en élémentaire. Une fois par semaine, les enfants qui le souhaitent apportent un objet de leur choix et racontent son histoire, son importance, etc.",
       "bgColor": "bg-pink",
       "textColor": "text-white"
     },
     {
       "motif": "🔧",
-      "title": "Los mestièrs | Les métiers",
+      "title": "Los mestièrs",
       "description": "Cette technique Freinet est utilisée dans les classes de maternelle et d’élémentaire pour organiser la vie de groupe. Différentes tâches et responsabilités sont confiées aux enfants selon leurs capacités (arroser les plantes, réaliser des tâches de rangement, assurer le métier de facteur, etc.)",
       "bgColor": "bg-secondary",
       "textColor": "text-white"
     },
     {
       "motif": "🎓",
-      "title": "Las cintas | Les ceintures",
+      "title": "Las cintas",
       "description": "Chacune de ces ceintures correspond à une compétence acquise ou à un droit obtenu dans la classe. Ce système incite les enfants à prendre en main leurs apprentissages, matérialise les acquis et aide le groupe classe à s’organiser.",
       "bgColor": "bg-green",
       "textColor": "text-white"

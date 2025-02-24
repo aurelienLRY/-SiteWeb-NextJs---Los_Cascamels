@@ -3,6 +3,7 @@
 import { Button, Link } from "@nextui-org/react";
 import { Section } from "@/components";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export const AboutSection = () => {
   return (
@@ -32,7 +33,12 @@ export const AboutSection = () => {
           />
         </div>
 
-        <div className="flex flex-col  flex-1 gap-3 items-center md:items-start justify-center">
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-col  flex-1 gap-3 items-center md:items-start justify-center"
+        >
           <h2 className="  text-xl font-subtitle text-primary">
             Une école associative et engagée
           </h2>
@@ -57,7 +63,7 @@ export const AboutSection = () => {
               En savoir plus
             </Button>
           </Link>
-        </div>
+        </motion.div>
       </article>
     </Section>
   );

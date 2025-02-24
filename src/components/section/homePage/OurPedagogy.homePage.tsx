@@ -3,6 +3,7 @@ import { ParallaxSection, Card } from "@/components";
 import { Button } from "@nextui-org/react";
 import { ReactNode } from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export const OurPedagogy = () => {
   return (
@@ -30,7 +31,14 @@ export const OurPedagogy = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 w-full max-w-[1400px] items-stretch">
           {itemsData.map((item, index) => (
-            <ItemsCard key={index} {...item} />
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, scale: 0.6 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+            >
+              <ItemsCard key={index} {...item} />
+            </motion.div>
           ))}
         </div>
 
