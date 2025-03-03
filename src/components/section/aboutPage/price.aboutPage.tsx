@@ -15,8 +15,8 @@ export const PriceAboutPage = ({ className }: { className?: string }) => {
         </h3>
       </div>
 
-      <div className="flex flex-col gap-4 md:flex-row ">
-        <div className="flex flex-col gap-4 bg-pink text-white p-6 rounded-lg max-w-xl">
+      <div className="flex flex-col gap-4 lg:flex-row ">
+        <div className="flex flex-col gap-4 bg-pink text-white p-6 rounded-lg max-w-xl shadow-lg">
           <h4 className="text-2xl font-title ">Frais d’inscription</h4>
           <div>
             <h5 className="text-4xl font-title ">
@@ -51,7 +51,7 @@ export const PriceAboutPage = ({ className }: { className?: string }) => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col gap-4 bg-red text-white p-6 rounded-lg max-w-xl">
+        <div className="flex flex-col gap-4 bg-red text-white p-6 rounded-lg max-w-xl shadow-lg">
           <h4 className="text-2xl font-title ">Frais d’inscription</h4>
           <div>
             <h5 className="text-4xl font-title ">
@@ -86,7 +86,7 @@ export const PriceAboutPage = ({ className }: { className?: string }) => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col gap-4 bg-purple text-white p-6 rounded-lg max-w-xl">
+        <div className="flex flex-col gap-4 bg-purple text-white p-6 rounded-lg max-w-xl shadow-lg">
           <h4 className="text-2xl font-title ">Frais d’inscription</h4>
           <div>
             <h5 className="text-4xl font-title ">

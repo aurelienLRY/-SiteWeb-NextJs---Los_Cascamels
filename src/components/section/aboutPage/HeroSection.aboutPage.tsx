@@ -21,7 +21,7 @@ export const HeroSectionAboutPage = () => {
       >
         <Image
           src="/img/test.png"
-          alt="A propos"
+          alt="Mongolfière en train de voler"
           width={800}
           height={400}
           className="object-cover "
@@ -32,7 +32,7 @@ export const HeroSectionAboutPage = () => {
         <aside className="  w-full xl:w-1/2 rounded-3xl overflow-hidden">
           <Image
             src="/img/school-1.webp"
-            alt="A propos"
+            alt="Photo de l'école Los Cascamèls"
             width={800}
             height={400}
             className=" object-cover "

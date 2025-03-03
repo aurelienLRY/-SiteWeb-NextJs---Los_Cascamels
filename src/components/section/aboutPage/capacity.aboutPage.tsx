@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export const Capacity = () => {
   return (
     <Section
-      className="flex flex-col gap-8 justify-center items-center min-h-[90vh] py-10    bg-cream "
+      className="flex flex-col gap-8 justify-center items-center min-h-[90vh]    bg-cream "
       showTopClouds={true}
       cloudsColor="bg-transparent text-white"
     >

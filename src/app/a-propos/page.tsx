@@ -70,7 +70,7 @@ export default function APropos() {
           </p>
         </div>
         <div
-          className="mt-4 grid grid-cols-1 md:grid-cols-2
+          className="mt-4 grid grid-cols-1 lg:grid-cols-2
          gap-8 px-2"
         >
           {PEDAGO_TEAM.map((pedago, index) => (

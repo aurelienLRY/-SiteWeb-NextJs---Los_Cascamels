@@ -13,7 +13,7 @@ export const FederationAboutPage = () => {
         className="object-cover"
       />
 
-      <article className="flex flex-col  items-center gap-4  text-center xl:text-left pb-40 lg:pb-0 max-w-4xl">
+      <article className="flex flex-col  items-center gap-4  text-center xl:text-left  lg:pb-0 max-w-4xl">
         <div className="flex flex-col">
           <h2 className="text-2xl text-primary font-subtitle">
             Une école ancrée dans le réseau Calandreta
