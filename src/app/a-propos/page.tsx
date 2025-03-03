@@ -8,6 +8,8 @@ import {
   Commission,
   HeroSectionAboutPage,
   ValuesSection,
+  FederationAboutPage,
+  PriceAboutPage,
 } from "@/components/section/aboutPage";
 
 const PEDAGO_TEAM = [
@@ -40,10 +42,13 @@ export default function APropos() {
   return (
     <React.Fragment>
       <HeroSectionAboutPage />
+      <FederationAboutPage />
+      <hr className="w-full max-w-xl mx-auto h-1 bg-primary " />
       <ValuesSection />
       <Capacity />
+
       <Section
-        className="bg-cream flex flex-col gap-8 justify-center items-center min-h-[70vh] pb-36  "
+        className="bg-cream flex flex-col gap-8 justify-center items-center min-h-[70vh] pb-36 "
         cloudsColor="bg-transparent text-white"
         showBottomClouds={true}
       >
@@ -76,7 +81,7 @@ export default function APropos() {
       <AssoSchool />
 
       <Commission />
-
+      <PriceAboutPage />
       <ContactSection />
     </React.Fragment>
   );

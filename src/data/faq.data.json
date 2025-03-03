@@ -43,6 +43,21 @@
             "Les enfants sont acteurs de leurs apprentissages : ils proposent des projets, explorent leurs centres d'intérêt et participent à la gestion de la vie en classe (conseils de classe, rôles, missions).",
             "Les « institutions » de la pédagogie institutionnelle (conseil, ceintures de compétences…) encadrent la coopération et le respect de chacun."
           ]
+        },
+        {
+          "id": 4,
+          "question": "Est-ce que le bilinguisme provoque un retard de langage chez les enfants ?",
+          "response": [
+            "Non. L'immersion occitane ne retarde pas les apprentissages en français ; au contraire, plusieurs études montrent que l'acquisition précoce d'une seconde langue renforce les compétences linguistiques globales."
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Quels sont les avantages du bilinguisme pour un jeune enfant ?",
+          "response": [
+            "Le bilinguisme améliore les fonctions cognitives de l’enfant, notamment la mémoire, la concentration et la flexibilité mentale.",
+            "Il favorise également une ouverture culturelle, une meilleure adaptation sociale, et développe une capacité à apprendre d’autres langues plus tard dans la vie."
+          ]
         }
       ]
     },

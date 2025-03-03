@@ -50,10 +50,15 @@ export const AboutSection = () => {
             permettre à chaque élève de grandir avec confiance et créativité.
           </p>
           <p className="text-center md:text-start">
+            Notre école fait partie du réseau Calandreta, un mouvement éducatif
+            qui regroupe aujourd’hui plus de 70 écoles à travers la région.
+          </p>
+          <p className="text-center md:text-start">
             Portée par une communauté soudée de familles, d’enseignants et de
             bénévoles, notre école défend une éducation inclusive, ouverte sur
             le monde et enracinée dans les traditions régionales.
           </p>
+
           <Link href="/a-propos">
             <Button
               color="primary"

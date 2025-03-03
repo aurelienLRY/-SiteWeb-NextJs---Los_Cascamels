@@ -76,7 +76,7 @@ const OurClassesCard = ({
       </div>
 
       <div
-        className={`absolute -bottom-32 left-1/2 -translate-x-1/2 ${bgColor} p-6 rounded-3xl text-white w-full max-w-[90%] min-h-[200px] shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300`}
+        className={`absolute -bottom-32 left-1/2 -translate-x-1/2 ${bgColor} border-t-3 border-primary p-6 rounded-3xl text-white w-full max-w-[90%] min-h-[200px] shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300`}
       >
         <h4 className="text-2xl font-title text-center mb-5">{titre}</h4>
         <p className="text-center">{description}</p>
