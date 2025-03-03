@@ -42,10 +42,11 @@ export default function APropos() {
       <HeroSectionAboutPage />
       <ValuesSection />
       <Capacity />
-      <AssoSchool />
-
-      <Commission />
-      <Section className="bg-cream flex flex-col gap-8 justify-center items-center min-h-[60vh]   ">
+      <Section
+        className="bg-cream flex flex-col gap-8 justify-center items-center min-h-[70vh] pb-36  "
+        cloudsColor="bg-transparent text-white"
+        showBottomClouds={true}
+      >
         <div className="flex flex-col gap-2 items-center text-center md:text-left">
           <h2 className="text-2xl font-subtitle text-primary">
             L’équipe pédagogique pour l’école primaire
@@ -72,6 +73,10 @@ export default function APropos() {
           ))}
         </div>
       </Section>
+      <AssoSchool />
+
+      <Commission />
+
       <ContactSection />
     </React.Fragment>
   );

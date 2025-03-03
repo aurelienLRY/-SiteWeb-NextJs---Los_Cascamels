@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "École primaire Los Cascamels - Rieux-Minervois",
-  description: "École primaire Los Cascamels - Rieux-Minervois",
+  title: "École primaire Los Cascamèls - Rieux-Minervois",
+  description: "École primaire Los Cascamèls - Rieux-Minervois",
   keywords: [
-    "Los Cascamels",
+    "Los Cascamèls",
     "Calendrette",
     "Rieux-Minervois",
     "École primaire",
@@ -15,25 +15,25 @@ export const metadata: Metadata = {
     "École bilingue",
   ],
 
-  authors: [{ name: "Calandreta Los Cascamels" }],
+  authors: [{ name: "Calandreta Los Cascamèls" }],
   openGraph: {
     phoneNumbers: [`${process.env.NEXT_PUBLIC_CONTACT_PHONE}`],
-    title: "École primaire Los Cascamels - Rieux-Minervois",
-    description: "École primaire Los Cascamels - Rieux-Minervois",
+    title: "École primaire Los Cascamèls - Rieux-Minervois",
+    description: "École primaire Los Cascamèls - Rieux-Minervois",
     url: `${process.env.NEXT_PUBLIC_URL}`,
     images: [
       {
         url: `${process.env.NEXT_PUBLIC_URL}/img/open-graph/og.webp`,
         width: 1200,
         height: 630,
-        alt: "École primaire Los Cascamels - Rieux-Minervois",
+        alt: "École primaire Los Cascamèls - Rieux-Minervois",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "École primaire Los Cascamels - Rieux-Minervois",
-    description: "École primaire Los Cascamels - Rieux-Minervois",
+    title: "École primaire Los Cascamèls - Rieux-Minervois",
+    description: "École primaire Los Cascamèls - Rieux-Minervois",
     images: [`${process.env.NEXT_PUBLIC_URL}/img/open-graph/og-twitter.webp`],
   },
 };

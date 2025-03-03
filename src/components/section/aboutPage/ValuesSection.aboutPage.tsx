@@ -5,10 +5,7 @@ import { motion } from "framer-motion";
 
 export const ValuesSection = () => {
   return (
-    <Section
-      className="flex flex-col lg:flex-row gap-4 justify-center items-center min-h-[60vh] bg-cream pt-14 pb-10 lg:pb-0  overflow-hidden"
-      cloudsColor="bg-transparent text-white"
-    >
+    <Section className="flex flex-col lg:flex-row gap-4 justify-center items-center min-h-[60vh] pt-14 pb-10   overflow-hidden">
       <aside className="flex flex-1 flex-col gap-2 max-w-xl">
         <Image
           src="/img/Kids3.webp"

@@ -150,7 +150,7 @@ export const Footer = () => {
 
         {/* Copyright */}
         <div className={STYLES.copyright}>
-          <p>© {currentYear} Los Cascamels. Tous droits réservés.</p>
+          <p>© {currentYear} Los Cascamèls. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

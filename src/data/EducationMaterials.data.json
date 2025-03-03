@@ -16,14 +16,28 @@
     },
     {
       "motif": "🌳",
-      "title": "Escol de la fouresst",
+      "title": "Escòla de la forest",
       "description": "Un projet pédagogie qui vise à sensibilisé les enfants à la protection de l'environnement aux travers de demi-journées à l'extérieur",
       "bgColor": "bg-primary ",
       "textColor": "text-white"
     },
     {
+      "motif": "💰",
+      "title": "la moneda",
+      "description": "Nous utilisons une monnaie fictive pour les échanges entre les enfants. Cette monnaie est utilisée pour acheter des objets, des services, etc.",
+      "bgColor": "bg-green ",
+      "textColor": "text-white"
+    },
+    {
+      "motif": "🛍️",
+      "title": "lo mercat",
+      "description": "Lors de ce marché, les enfants peuvent vendre et acheter, avec la monnaie acquise, de petits objets fabriqués en classe ou provenant de la maison. Il donne du sens à la monnaie. Comme toute institution, celle-ci est soumise à des règles de fonctionnement ",
+      "bgColor": "bg-lightBlue ",
+      "textColor": "text-white"
+    },
+    {
       "motif": "🤝",
-      "title": "Presentassou de caousos",
+      "title": "Presentacion de causas",
       "description": "Ce rituel d’expression orale est utilisé en classe de maternelle et en élémentaire. Une fois par semaine, les enfants qui le souhaitent apportent un objet de leur choix et racontent son histoire, son importance, etc.",
       "bgColor": "bg-pink",
       "textColor": "text-white"

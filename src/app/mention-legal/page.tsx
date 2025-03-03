@@ -12,7 +12,7 @@ export default function MentionsLegales() {
           <p className="text-lg">
             Conformément à l&apos;article 6 de la loi n°2004-575 du 21 juin 2004
             pour la confiance dans l&apos;économie numérique, il est précisé aux
-            utilisateurs du site de l&apos;école associative Los Cascamels les
+            utilisateurs du site de l&apos;école associative Los Cascamèls les
             informations suivantes :
           </p>
 
@@ -21,7 +21,7 @@ export default function MentionsLegales() {
               Éditeur du site
             </h2>
             <p className="space-y-2">
-              <strong>Nom de l&apos;association :</strong> Los Cascamels
+              <strong>Nom de l&apos;association :</strong> Los Cascamèls
               <br />
               <strong>Forme juridique :</strong> Association loi 1901
               <br />
@@ -62,12 +62,12 @@ export default function MentionsLegales() {
             </h2>
             <p className="text-justify">
               Les contenus présents sur ce site (textes, images, graphismes,
-              logo, icônes, etc.) sont la propriété exclusive de Los Cascamels
+              logo, icônes, etc.) sont la propriété exclusive de Los Cascamèls
               ou de tiers ayant autorisé leur utilisation. Toute reproduction,
               représentation, modification, publication ou adaptation des
               éléments du site, quel que soit le moyen ou le procédé utilisé,
               est interdite, sauf autorisation écrite préalable de Los
-              Cascamels.
+              Cascamèls.
             </p>
           </section>
 
@@ -77,7 +77,7 @@ export default function MentionsLegales() {
             </h2>
             <p className="text-justify">
               Conformément au Règlement Général sur la Protection des Données
-              (RGPD), Los Cascamels s&apos;engage à ce que la collecte et le
+              (RGPD), Los Cascamèls s&apos;engage à ce que la collecte et le
               traitement des données personnelles soient effectués de manière
               licite, loyale et transparente. Les informations recueillies sont
               destinées uniquement à l&apos;usage de l&apos;association et ne
@@ -100,7 +100,7 @@ export default function MentionsLegales() {
               Cookies
             </h2>
             <p className="text-justify">
-              Le site de Los Cascamels utilise des cookies pour améliorer
+              Le site de Los Cascamèls utilise des cookies pour améliorer
               l&apos;expérience utilisateur et réaliser des statistiques de
               visites. Lors de votre première visite, un bandeau vous informe de
               la présence de ces cookies et vous invite à les accepter ou à les
@@ -114,8 +114,8 @@ export default function MentionsLegales() {
               Liens hypertextes
             </h2>
             <p className="text-justify">
-              Le site de Los Cascamels peut contenir des liens vers
-              d&apos;autres sites externes. Los Cascamels n&apos;exerce aucun
+              Le site de Los Cascamèls peut contenir des liens vers
+              d&apos;autres sites externes. Los Cascamèls n&apos;exerce aucun
               contrôle sur ces sites et décline toute responsabilité quant à
               leur contenu ou leurs pratiques en matière de protection des
               données personnelles.
@@ -127,7 +127,7 @@ export default function MentionsLegales() {
               Responsabilité
             </h2>
             <p className="text-justify">
-              Los Cascamels met tout en œuvre pour assurer l&apos;exactitude et
+              Los Cascamèls met tout en œuvre pour assurer l&apos;exactitude et
               la mise à jour des informations diffusées sur son site. Toutefois,
               l&apos;association ne peut garantir l&apos;exactitude, la
               précision ou l&apos;exhaustivité des informations mises à

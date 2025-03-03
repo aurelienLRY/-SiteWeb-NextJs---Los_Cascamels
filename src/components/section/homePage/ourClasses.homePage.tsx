@@ -17,7 +17,7 @@ export const OurClassesHomePage = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-5 md:gap-10 flex-1 items-center justify-center w-full max-w-[1300px]">
         <p className="text-center">
-          L’école Calandreta Los Cascamels est organisée en trois classes à
+          L’école Calandreta Los Cascamèls est organisée en trois classes à
           taille humaine, favorisant un suivi individualisé et une ambiance
           bienveillante. Nous accueillons les élèves de la petite section
           jusqu’au CM2, dans un environnement stimulant et enrichissant.

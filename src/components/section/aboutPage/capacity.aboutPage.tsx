@@ -4,7 +4,11 @@ import { motion } from "framer-motion";
 
 export const Capacity = () => {
   return (
-    <Section className="flex flex-col gap-8 justify-center items-center min-h-[30vh]  md:pb-48  bg-cream ">
+    <Section
+      className="flex flex-col gap-8 justify-center items-center min-h-[90vh] py-10  md:pb-48  bg-cream "
+      showTopClouds={true}
+      cloudsColor="bg-transparent text-white"
+    >
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -15,7 +19,7 @@ export const Capacity = () => {
           <h2 className="font-subtitle text-2xl text-primary">
             Une structure à taille humaine
           </h2>
-          <h3 className="font-title text-4xl md:text-6xl">
+          <h3 className="font-title text-4xl md:text-6xl text-black">
             Des capacités d’accueil adaptées aux enfants du primaire et de la
             maternelle
           </h3>
@@ -29,7 +33,7 @@ export const Capacity = () => {
           </p>
         </div>
       </motion.div>
-      <div className="flex flex-col md:flex-row flex-wrap gap-8 justify-center items-center max-w-[1400px]">
+      <div className="flex flex-col lg:flex-row  gap-8 justify-center items-center max-w-[1400px]">
         {classCardData.map((card, index) => (
           <ClassCard key={`class-${index}`} {...card} index={index} />
         ))}
@@ -59,7 +63,7 @@ const ClassCard = ({
     >
       <Card
         title={title}
-        className="bg-white w-full max-w-[400px] mx-auto h-full"
+        className="bg-white w-full max-w-[500px] mx-auto h-full "
       >
         <p className="text-center text-black">{description}</p>
       </Card>

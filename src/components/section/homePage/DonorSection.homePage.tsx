@@ -13,7 +13,7 @@ export const DonorSection = () => {
     >
       <div className="flex flex-col items-center justify-center mt-10">
         <h2 className="font-subtitle text-lightGray text-center">
-          Soutenir Los Cascamels
+          Soutenir Los Cascamèls
         </h2>
         <h3 className="text-secondary text-center font-title text-4xl md:text-6xl">
           Soutenez l’éducation de demain

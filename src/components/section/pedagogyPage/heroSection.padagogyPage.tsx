@@ -18,7 +18,7 @@ export const HeroSectionPedagogyPage = () => {
           Une méthode éducative ancrée dans l’expérience
         </h2>
         <p className=" italic font-semibold text-gray-500 text-center md:text-start">
-          À la Calandreta Los Cascamels, nous avons développé une pédagogie
+          À la Calandreta Los Cascamèls, nous avons développé une pédagogie
           immersive unique combinant l’apprentissage en occitan, des méthodes
           actives et une structuration inspirée de la Pédagogie
           Institutionnelle. Cette approche donne à l’enfant une place centrale

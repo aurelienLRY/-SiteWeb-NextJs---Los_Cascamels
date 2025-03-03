@@ -44,7 +44,7 @@ export const AboutSection = () => {
           </h2>
           <h3 className="text-4xl md:text-6xl font-title">Qui sommes-nous ?</h3>
           <p className=" italic font-semibold text-gray-500 text-center md:text-start">
-            L’école Calandreta Los Cascamels est un lieu d’apprentissage unique
+            L’école Calandreta Los Cascamèls est un lieu d’apprentissage unique
             où l’enfant est placé au centre. Nous utilisons des pédagogies
             actives, combinant immersion occitane et méthodes Freinet, pour
             permettre à chaque élève de grandir avec confiance et créativité.

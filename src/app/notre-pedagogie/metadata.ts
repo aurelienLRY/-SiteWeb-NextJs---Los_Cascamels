@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Notre pédagogie - École Calandreta Los Cascamels",
+  title: "Notre pédagogie - École Calandreta Los Cascamèls",
   description:
     "Découvrez notre pédagogie active et bilingue (occitan-français).",
   keywords: [
@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     "École enfant HPI",
     "école inclusive",
   ],
-  authors: [{ name: "Calandreta Los Cascamels" }],
+  authors: [{ name: "Calandreta Los Cascamèls" }],
   openGraph: {
-    title: "Notre pédagogie - École Calandreta Los Cascamels",
+    title: "Notre pédagogie - École Calandreta Los Cascamèls",
     description:
       "Découvrez notre pédagogie active et bilingue (occitan-français).",
     url: `${process.env.NEXT_PUBLIC_URL}/notre-pedagogie`,
@@ -24,13 +24,13 @@ export const metadata: Metadata = {
         url: `${process.env.NEXT_PUBLIC_URL}/img/open-graph/og-pedagogie.webp`,
         width: 1200,
         height: 630,
-        alt: "Notre pédagogie - École Calandreta Los Cascamels",
+        alt: "Notre pédagogie - École Calandreta Los Cascamèls",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Notre pédagogie - École Calandreta Los Cascamels",
+    title: "Notre pédagogie - École Calandreta Los Cascamèls",
     description:
       "Découvrez notre pédagogie active et bilingue (occitan-français).",
     images: [

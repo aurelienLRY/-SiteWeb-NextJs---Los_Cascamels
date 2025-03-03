@@ -22,16 +22,16 @@ export const HeroSection = () => {
           className="flex flex-col items-center "
         >
           <p className="text-xl md:text-2xl text-center text-white font-subtitle">
-            Bienvenue chez
+            Bienvenue à
           </p>
           <h1 className="text-4xl md:text-6xl font-title text-center text-brown ">
-            Los Cascamels
+            Los Cascamèls
           </h1>
           <h2 className="text-white text-center text-base md:text-lg font-sans max-w-[70%]">
             Une école où apprentissage et épanouissement se rencontrent.
           </h2>
           <p className="text-white text-center text-base md:text-lg font-sans max-w-[70%]">
-            À Los Cascamels, nous construisons un avenir où chaque enfant
+            À Los Cascamèls, nous construisons un avenir où chaque enfant
             grandit dans la bienveillance, l&apos;autonomie et la richesse de la
             culture occitane.
           </p>

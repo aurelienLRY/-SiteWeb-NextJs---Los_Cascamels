@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact - École Calandreta Los Cascamels",
+  title: "Contact - École Calandreta Los Cascamèls",
   description: "Contactez-nous pour plus d'informations",
   keywords: [
     "contact",
     "école primaire",
     "calandreta",
-    "cascamels",
+    "cascamèls",
     "contactez-nous",
   ],
-  authors: [{ name: "Calandreta Los Cascamels" }],
+  authors: [{ name: "Calandreta Los Cascamèls" }],
   openGraph: {
     url: `${process.env.NEXT_PUBLIC_URL}/contact`,
-    title: "Contact - École Calandreta Los Cascamels",
+    title: "Contact - École Calandreta Los Cascamèls",
     description:
       "Contactez-nous pour plus d'informations , nous répondrons à vos questions dans les plus brefs délais",
     images: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         url: `${process.env.NEXT_PUBLIC_URL}/img/open-graph/og-contact.webp`,
         width: 1200,
         height: 630,
-        alt: "Contact - École Calandreta Los Cascamels",
+        alt: "Contact - École Calandreta Los Cascamèls",
       },
     ],
     locale: "fr-FR",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact - École Calandreta Los Cascamels",
+    title: "Contact - École Calandreta Los Cascamèls",
     description:
       "Contactez-nous pour plus d'informations , nous répondrons à vos questions dans les plus brefs délais",
     images: [

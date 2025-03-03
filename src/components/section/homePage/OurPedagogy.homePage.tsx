@@ -20,12 +20,12 @@ export const OurPedagogy = () => {
             Une pédagogie innovante et enracinée
           </p>
           <h2 className="text-4xl md:text-6xl font-title text-center text-white">
-            Pourquoi choisir Los Cascamels ?
+            Pourquoi choisir Los Cascamèls ?
           </h2>
           <p className="text-white text-center md:text-lg max-w-[1200px]">
             Nos méthodes pédagogiques favorisent l&apos;autonomie, l&apos;esprit
             critique et la connexion à nos racines culturelles. Chez Los
-            Cascamels, chaque enfant évolue dans un environnement bienveillant
+            Cascamèls, chaque enfant évolue dans un environnement bienveillant
             et stimulant.
           </p>
         </div>
@@ -73,7 +73,7 @@ const itemsData = [
   {
     title: "Immersion linguistique",
     children:
-      "Grâce à notre approche bilingue, vos enfants découvrent les richesses du français et de l'occitan, élargissant leurs horizons linguistiques et culturels",
+      "Grâce à l'immersion linguistique, nos enfants découvrent les richesses du français et de l'occitan, élargissant leurs horizons linguistiques et culturels",
     img: `https://placehold.co/600x400.png`,
   },
   {

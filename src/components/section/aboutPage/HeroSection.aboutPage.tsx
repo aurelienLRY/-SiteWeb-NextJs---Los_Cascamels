@@ -9,7 +9,9 @@ export const HeroSectionAboutPage = () => {
     <HeroSectionLayout
       props={{
         showTopClouds: true,
+        showBottomClouds: true,
       }}
+      className="overflow-hidden"
     >
       <motion.div
         initial={{ y: 1200, x: 100 }}
@@ -55,7 +57,7 @@ export const HeroSectionAboutPage = () => {
               respect du rythme sont au cœur de l&apos;enseignement.
             </p>
             <p className="text-justify">
-              La Calandreta Los Cascamels est une école associative laïque,
+              La Calandreta Los Cascamèls est une école associative laïque,
               reconnue d&apos;utilité publique, qui enseigne l&apos;occitan en
               immersion tout en valorisant la culture occitane à travers des
               projets éducatifs et culturels.

@@ -15,7 +15,7 @@ export default function FAQ() {
           </h1>
           <p className="text-white text-lg max-w-2xl mx-auto">
             Découvrez les réponses aux questions les plus courantes sur notre
-            école Calandreta Los Cascamels
+            école Calandreta Los Cascamèls
           </p>
         </div>
 
