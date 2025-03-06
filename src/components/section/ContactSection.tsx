@@ -63,7 +63,7 @@ export const ContactSection = ({ className }: { className?: string }) => {
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col gap-4 flex-1 justify-center items-center"
+          className="flex flex-col gap-4 flex-1 justify-center items-center w-full max-w-[500px]"
         >
           <Input
             {...register("name", { required: "Le nom est requis" })}

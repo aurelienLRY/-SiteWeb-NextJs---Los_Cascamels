@@ -15,12 +15,19 @@
 }
 html {
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  height: 100%;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-roboto), sans-serif !important;
+  min-height: 100%;
+  position: relative;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 h1,

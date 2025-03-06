@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 export const EducationalMaterials = () => {
   return (
     <Section className="  flex flex-col lg:flex-row gap-10 justify-center items-center min-h-[60vh] overflow-hidden">
-      <article className="flex flex-col gap-8 items-center  w-full   text-center md:text-start">
-        <div className="flex flex-col gap-4   w-full max-w-[1200px]  text-center md:text-start">
-          <div className="flex flex-col mt-10 w-full ">
+      <article className="flex flex-col gap-8 items-center  w-full   text-center lg:text-start">
+        <div className="flex flex-col gap-4   max-w-[1200px] ">
+          <div className="flex flex-col  w-full ">
             <h2 className="font-subtitle text-xl md:text-2xl text-primary">
               Des supports pédagogiques adaptés et variés
             </h2>

@@ -10,14 +10,14 @@ export const HeroSectionPedagogyPage = () => {
         showTopClouds: true,
       }}
     >
-      <div className="flex flex-col  flex-1 gap-3 items-center md:items-start justify-center max-w-[1000px] text-center md:text-start">
+      <div className="flex flex-col  flex-1 gap-3 items-center lg:items-start justify-center max-w-[1000px] text-center lg:text-start">
         <h1 className=" text-xl md:text-2xl font-subtitle text-white">
           Notre pédagogie : une approche immersive et innovante
         </h1>
         <h2 className="text-4xl md:text-6xl font-title text-secondary">
           Une méthode éducative ancrée dans l’expérience
         </h2>
-        <p className=" italic font-semibold text-gray-500 text-center md:text-start">
+        <p className=" font-semibold text-gray-500 ">
           À la Calandreta Los Cascamèls, nous avons développé une pédagogie
           immersive unique combinant l’apprentissage en occitan, des méthodes
           actives et une structuration inspirée de la Pédagogie

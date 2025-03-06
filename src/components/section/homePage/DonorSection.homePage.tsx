@@ -7,10 +7,7 @@ import Link from "next/link";
 
 export const DonorSection = () => {
   return (
-    <Section
-      className="flex flex-col gap-10 items-center justify-center  h-full bg-lightBlue py-20 min-h-[80vh]  "
-      cloudsColor="text-cream"
-    >
+    <Section className="flex flex-col gap-10 items-center justify-center  h-full bg-lightBlue py-20 min-h-[80vh]  ">
       <div className="flex flex-col items-center justify-center mt-10">
         <h2 className="font-subtitle text-lightGray text-center">
           Soutenir Los Cascamèls

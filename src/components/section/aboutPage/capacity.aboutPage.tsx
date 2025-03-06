@@ -13,9 +13,9 @@ export const Capacity = () => {
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeInOut" }}
-        className="flex flex-col gap-8 justify-center items-center max-w-[1200px]"
+        className="flex flex-col gap-8 justify-center items-center max-w-[1200px] text-center lg:text-start"
       >
-        <div className="text-center md:text-left flex flex-col gap-2">
+        <div className=" flex flex-col gap-2">
           <h2 className="font-subtitle text-2xl text-primary">
             Une structure à taille humaine
           </h2>
@@ -25,7 +25,7 @@ export const Capacity = () => {
           </h3>
         </div>
         <div className=" px-4">
-          <p className="text-justify md:text-left">
+          <p className="text-justify lg:text-left">
             Notre école accueille une soixantaine d’enfants, leur offrant un
             cadre familial et individualisé. Chaque classe de l’école primaire
             bénéficie d’un encadrement attentionné, favorisant une relation

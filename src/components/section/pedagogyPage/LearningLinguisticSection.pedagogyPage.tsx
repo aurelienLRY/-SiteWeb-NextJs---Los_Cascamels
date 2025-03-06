@@ -7,8 +7,8 @@ export const LearningLinguisticSection = () => {
       backgroundImage="/img/educator-teaching.webp"
       opacity="opacity-10"
     >
-      <article className="flex flex-col gap-5  w-full max-w-[1200px] py-20 text-center md:text-start bg-red/30 backdrop-blur-lg rounded-xl p-2 text-white ">
-        <div className="flex flex-col mt-10">
+      <article className="flex flex-col gap-5  w-full max-w-[1200px]  text-center md:text-start bg-red/30 backdrop-blur-lg rounded-xl p-2 text-white ">
+        <div className="flex flex-col ">
           <h2 className="font-subtitle text-xl md:text-2xl text-primary">
             L’apprentissage par l’immersion linguistiquex
           </h2>

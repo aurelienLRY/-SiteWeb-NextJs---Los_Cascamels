@@ -40,7 +40,7 @@ export const FederationAboutPage = () => {
             l’Éducation nationale.
           </p>
         </div>
-        <div className="flex gap-4 justify-start w-full px-4">
+        <div className="flex gap-4 justify-center lg:justify-start w-full px-4">
           <Link href="https://www.calandreta.org/" target="_blank">
             <Button
               value={"En savoir plus"}

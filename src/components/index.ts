@@ -18,5 +18,6 @@ export { Card } from "@/components/card/Card";
 export { OurValuesCard } from "@/components/card/OurValuesCard";
 export { DonorCard } from "@/components/card/Donor.card";
 export { PedagoTeamCard } from "@/components/card/PedagoTeam.card";
+export { EducationProjectCard } from "@/components/card/EducationProject.card";
 /*Common components */
 export { Carousel, CarouselItem } from "@/components/common/Carrousel";

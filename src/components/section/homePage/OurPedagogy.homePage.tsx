@@ -43,7 +43,7 @@ export const OurPedagogy = () => {
         </div>
 
         <Link href="/notre-pedagogie">
-          <Button className="bg-primary text-white font-title" size="lg">
+          <Button color="primary" className=" text-white font-title" size="lg">
             Découvrir nos méthodes
           </Button>
         </Link>

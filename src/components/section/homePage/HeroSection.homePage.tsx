@@ -14,7 +14,7 @@ export const HeroSection = () => {
         showTopClouds: true,
       }}
     >
-      <div className="flex flex-1 flex-col items-end justify-center ">
+      <div className="flex  flex-col items-end justify-center ">
         <motion.div
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -59,12 +59,13 @@ export const HeroSection = () => {
           </div>
         </motion.div>
       </div>
-      <div className="flex-1 hidden md:flex">
+      <div className=" hidden md:flex max-h-[500px] lg:max-h-[800px]">
         <Image
           src="/img/Fly1.webp"
           alt="dessin d'un enfant sur un stylo"
           width={1080}
           height={1080}
+          className="object-contain"
         />
       </div>
     </HeroSectionLayout>

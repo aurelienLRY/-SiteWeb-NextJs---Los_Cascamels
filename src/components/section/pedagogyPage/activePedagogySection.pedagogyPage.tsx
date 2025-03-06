@@ -4,9 +4,9 @@ import { Card } from "@/components/card/Card";
 export const ActivePedagogySection = () => {
   return (
     <Section className="flex flex-col gap-10 lg:flex-row items-center justify-center py-5 min-h-[70vh]">
-      <article className="flex flex-col gap-5  w-full max-w-[1200px] py-20 text-center md:text-start ">
-        <div className="flex flex-col mt-10">
-          <h2 className="font-subtitle text-xl md:text-2xl text-lightGray">
+      <article className="flex flex-col gap-8  w-full max-w-[1200px] py-20 text-center lg:text-start ">
+        <div className="flex flex-col mt-10 ">
+          <h2 className="font-subtitle text-xl md:text-2xl text-lightGray text-primary">
             Une pédagogie active et participative
           </h2>
           <h3 className="text-4xl md:text-6xl font-title">
@@ -18,7 +18,7 @@ export const ActivePedagogySection = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
           quos.
         </p>
-        <div className="flex flex-col lg:flex-row gap-5">
+        <div className="flex flex-col lg:flex-row gap-2 lg:gap-5">
           {contentItems.map((item, index) => (
             <Card
               title={item.title}

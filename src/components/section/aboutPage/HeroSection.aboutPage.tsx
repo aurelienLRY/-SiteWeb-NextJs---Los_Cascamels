@@ -49,7 +49,7 @@ export const HeroSectionAboutPage = () => {
             </h2>
           </div>
           <div className="flex flex-col gap-4 min-h-fit">
-            <p className="text-justify">
+            <p className="text-justify font-semibold text-gray-500">
               Depuis 2009, notre école immersive célèbre la langue et la culture
               occitane en transmettant ces racines précieuses à une soixantaine
               d’élèves, de la maternelle au CM2. Ici, chaque enfant apprend dans

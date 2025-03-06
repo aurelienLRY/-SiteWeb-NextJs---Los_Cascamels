@@ -6,7 +6,7 @@ export const PriceAboutPage = ({ className }: { className?: string }) => {
     <Section
       className={`flex flex-col gap-8 justify-center items-center min-h-[60vh] max-w-6xl mx-auto ${className}`}
     >
-      <div className="flex flex-col ">
+      <div className="flex flex-col text-center  lg:text-start ">
         <h2 className="text-2xl text-primary font-subtitle">
           Un petit prix pour un enseignement de qualité
         </h2>

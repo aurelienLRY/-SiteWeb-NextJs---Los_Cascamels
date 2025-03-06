@@ -53,11 +53,12 @@ export const Carousel: React.FC<CarouselProps> = ({
   className,
 }) => {
   const isMobile = useMediaQuery("(max-width: 768px)");
+  const isTablet = useMediaQuery("(max-width: 1024px)");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStart, setTouchStart] = useState<number | null>(null);
   const [touchEnd, setTouchEnd] = useState<number | null>(null);
 
-  const effectiveVisibleItems = isMobile ? 1 : visibleItems;
+  const effectiveVisibleItems = isTablet ? 1 : visibleItems;
   const items = useMemo(() => React.Children.toArray(children), [children]);
   const itemWidth = useMemo(
     () => 100 / effectiveVisibleItems,
@@ -135,13 +136,13 @@ export const Carousel: React.FC<CarouselProps> = ({
           onTouchEnd={handleTouchEnd}
         >
           <div
-            className="flex transition-transform duration-500 ease-in-out"
+            className="flex  transition-transform duration-500 ease-in-out"
             style={carouselStyles}
           >
             {React.Children.map(children, (child, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 px-2"
+                className="flex-shrink-0 px-2  flex items-center justify-center"
                 style={{ width: `${itemWidth}%` }}
               >
                 {child}
