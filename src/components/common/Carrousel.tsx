@@ -57,6 +57,7 @@ export const Carousel: React.FC<CarouselProps> = ({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStart, setTouchStart] = useState<number | null>(null);
   const [touchEnd, setTouchEnd] = useState<number | null>(null);
+  const [isPaused, setIsPaused] = useState(false);
 
   const effectiveVisibleItems = isTablet ? 1 : visibleItems;
   const items = useMemo(() => React.Children.toArray(children), [children]);
@@ -104,11 +105,11 @@ export const Carousel: React.FC<CarouselProps> = ({
   };
 
   useEffect(() => {
-    if (autoPlay) {
+    if (autoPlay && !isPaused) {
       const interval = setInterval(nextSlide, autoPlayInterval);
       return () => clearInterval(interval);
     }
-  }, [autoPlay, autoPlayInterval, nextSlide]);
+  }, [autoPlay, autoPlayInterval, nextSlide, isPaused]);
 
   const carouselStyles = useMemo(
     () => ({
@@ -118,7 +119,11 @@ export const Carousel: React.FC<CarouselProps> = ({
   );
 
   return (
-    <div className={`w-full relative ${className || ""}`}>
+    <div 
+      className={`w-full relative ${className || ""}`}
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
       <div className="w-full flex items-center justify-between">
         {showArrows && !isMobile && (
           <button

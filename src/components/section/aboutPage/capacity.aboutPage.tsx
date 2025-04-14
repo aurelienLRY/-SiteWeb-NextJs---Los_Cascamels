@@ -35,7 +35,7 @@ export const Capacity = () => {
       </motion.div>
       <div className="flex flex-col lg:flex-row  gap-8 justify-center items-center max-w-[1400px]">
         {classCardData.map((card, index) => (
-          <ClassCard key={`class-${index}`} {...card} index={index} />
+          <ClassCard key={`classCard-${index}`} {...card} index={index} />
         ))}
       </div>
     </Section>
@@ -65,7 +65,7 @@ const ClassCard = ({
         title={title}
         className="bg-white w-full max-w-[500px] mx-auto h-full "
       >
-        <p className="text-center text-black">{description}</p>
+        <p className=" text-black text-justify">{description}</p>
       </Card>
     </motion.div>
   );
@@ -75,7 +75,7 @@ const classCardData = [
   {
     title: "PS-MS-GS",
     description:
-      "Notre classe élémentaire , d'une capacité de 20 enfants. Cette mixité permet de favoriser l'échange entre les élèves et de favoriser leur socialisation. Les plus petits peuvent être accompagnés par les plus grands, et les plus grands peuvent aider les plus petits. Ce qui permet a chaque cycle de tirer parti de l'expérience et de l'entraide.",
+      "Une classe de maternelle qui accueille une vingtaine d'enfants de la Toute Petite Section à la Grande Section selon les années. Ce multiniveau favorise le développement de l'autonomie, la communication entre les générations, un apprentissage facilité des fondamentaux et une opportunité de trouver sa place. Une classe spacieuse, lumineuse, sous les arbres et face aux vignes offre à tous un cadre idéal !",
   },
   {
     title: "CP-CE1",

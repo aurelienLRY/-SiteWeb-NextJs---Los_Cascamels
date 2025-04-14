@@ -14,20 +14,22 @@ import {
 
 const PEDAGO_TEAM = [
   {
-    name: "John Doe",
-    role: "Directrice",
-    urlImage: "/img/portrait/portrait_H_1.webp",
+    name: "Fanette",
+    role: "Directrice & institutrice PS à GS",
+    urlImage: "/img/portrait/portrait_F_1.webp",
     color: "bleuRoyale",
+    description:
+      "Regenta de vocation, je me rends au travail avec joie, et travailler avec les enfants me procure de grandes satisfactions. Donner aux enfants le plaisir de venir à l'école et l'envie d'apprendre fait partie de mes priorités. Pour ce faire, je m'appuie essentiellement sur la pédagogie institutionnelle, le jeu et les projets.",
   },
   {
-    name: "Celine Léon",
+    name: "Frédéric",
     role: "instituteur CP à CE2",
-    urlImage: "/img/portrait/portrait_F_1.webp",
+    urlImage: "/img/portrait/portrait_H_1.webp",
     color: "purple",
   },
   {
-    name: "Cédric Léon",
-    role: "instituteur CM1 à CM2",
+    name: "Cindy",
+    role: "institutrice CE2 à CM2",
     urlImage: "/img/portrait/portrait_F_2.webp",
     color: "pink",
     socialLinks: {

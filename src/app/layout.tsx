@@ -47,6 +47,7 @@ export default function RootLayout({
     <html lang="fr">
       <body
         className={`${roboto.variable} ${mono.variable} ${loveYaLikeASister.variable} ${shadowsIntoLightTwo.variable} antialiased `}
+        suppressHydrationWarning
       >
         <Provider>
           <Header />

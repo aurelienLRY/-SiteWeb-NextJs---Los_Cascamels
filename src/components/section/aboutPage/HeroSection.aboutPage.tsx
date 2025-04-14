@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { HeroSection as HeroSectionLayout } from "@/components";
-import { motion } from "framer-motion";
 
 export const HeroSectionAboutPage = () => {
   return (
@@ -13,21 +12,6 @@ export const HeroSectionAboutPage = () => {
       }}
       className="overflow-hidden"
     >
-      <motion.div
-        initial={{ y: 1200, x: 100 }}
-        animate={{ y: 100, x: 100 }}
-        transition={{ duration: 11, ease: "easeInOut" }}
-        className="absolute top-0 left-7  hidden md:block  w-48 overflow-hidden"
-      >
-        <Image
-          src="/img/test.png"
-          alt="Mongolfière en train de voler"
-          width={800}
-          height={400}
-          className="object-cover "
-          loading="lazy"
-        />
-      </motion.div>
       <div className="flex flex-col xl:flex-row gap-8 justify-around items-center max-w-[1600px]">
         <aside className="  w-full xl:w-1/2 rounded-3xl overflow-hidden">
           <Image

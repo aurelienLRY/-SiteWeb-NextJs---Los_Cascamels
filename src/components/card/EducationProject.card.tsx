@@ -25,9 +25,11 @@ export const EducationProjectCard = ({
         <h3 className="text-4xl text-white text-center text-balance">
           {title}
         </h3>
-        <p className="text-sm text-white  w-[90%] mx-auto min-w-[250px] text-justify">
-          {description}
-        </p>
+        <div className="text-sm text-white  w-[90%] mx-auto min-w-[250px] ">
+          {description.map((desc, index) => (
+            <p key={index} className="mb-1">{desc}</p>
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -69,6 +69,7 @@ export const PedagoTeamCard = ({
     const Icon = SOCIAL_ICONS[platform];
     return (
       <Link
+        key={`social-${platform}-${name}`}
         target="_blank"
         href={url}
         className={CSS_LINK}
