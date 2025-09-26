@@ -15,108 +15,97 @@ export const PriceAboutPage = ({ className }: { className?: string }) => {
         </h3>
       </div>
 
-      <div className="flex flex-col gap-4 lg:flex-row ">
-        <div className="flex flex-col gap-4 bg-pink text-white p-6 rounded-lg max-w-xl shadow-lg">
-          <h4 className="text-2xl font-title ">Frais d’inscription</h4>
+      <div className="flex  flex-col gap-4 lg:flex-row ">
+        <div className="flex flex-1 flex-col gap-4 bg-pink text-white p-6 rounded-lg max-w-xl shadow-lg">
+          <h4 className="text-2xl font-title text-center ">1 enfant</h4>
           <div>
-            <h5 className="text-4xl font-title ">
-              <span className=" text-primary">750 €</span>/ans
-            </h5>
-            <h6 className="text-2xl font-title ">pour votre premier enfant</h6>
+
+            <h5 className="!text-5xl font-title text-center "><span className="text-primary">935€</span>/an
+          </h5>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quos.
-          </p>
-          <div className="py-2">
-            <ul className="flex flex-col gap-2">
+          
+          <div className="">
+            <ul className="flex flex-col gap-1">
               <li className="flex items-center">
                 <span className="text-primary text-xl mr-2">
                   <FaCheck />
                 </span>
-                Comprend une garderie
+                70€/mois d&apos;adhésion
               </li>
               <li className="flex items-center ">
                 <span className="text-primary text-xl mr-2">
                   <FaCheck />
                 </span>
-                Comprend une cantine
+                20€/ans frais pédagogique
               </li>
               <li className="flex items-center ">
                 <span className="text-primary text-xl mr-2">
                   <FaCheck />
                 </span>
-                Comprend une réduction de 25% sur le prix de l&apos;inscription
+                75€/an cotisation fédération Calandreta
+              </li>
+            </ul>
+          </div>
+       
+        </div>
+        <div className="flex flex-1 flex-col gap-4 bg-red text-white p-6 rounded-lg max-w-xl shadow-lg">
+          <h4 className="text-2xl font-title text-center ">2 enfants</h4>
+          <div>
+            <h5 className="!text-5xl font-title text-center ">
+              <span className=" text-primary">1510 €</span>/ans
+            </h5>
+          </div>
+        
+          <div className="">
+            <ul className="flex flex-col gap-1">
+              <li className="flex items-center">
+                <span className="text-primary text-xl mr-2">
+                  <FaCheck />
+                </span>
+                110€/mois d&apos;adhésion
+              </li>
+              <li className="flex items-center ">
+                <span className="text-primary text-xl mr-2">
+                  <FaCheck />
+                </span>
+                40€/ans frais pédagogique
+              </li>
+              <li className="flex items-center ">
+                <span className="text-primary text-xl mr-2">
+                  <FaCheck />
+                </span>
+                150€/an cotisation fédération Calandreta
               </li>
             </ul>
           </div>
         </div>
-        <div className="flex flex-col gap-4 bg-red text-white p-6 rounded-lg max-w-xl shadow-lg">
-          <h4 className="text-2xl font-title ">Frais d’inscription</h4>
+        <div className="flex flex-1 flex-col gap-4 bg-purple text-white p-6 rounded-lg max-w-xl shadow-lg">
+          <h4 className="text-2xl font-title text-center ">3 enfants</h4>
           <div>
-            <h5 className="text-4xl font-title ">
-              <span className=" text-primary">750 €</span>/ans
+            <h5 className="!text-5xl font-title text-center ">
+              <span className=" text-primary">1965 €</span>/ans
             </h5>
-            <h6 className="text-2xl font-title ">pour votre premier enfant</h6>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quos.
-          </p>
+      
           <div className="py-2">
-            <ul className="flex flex-col gap-2">
+            <ul className="flex flex-col gap-1">
               <li className="flex items-center">
                 <span className="text-primary text-xl mr-2">
                   <FaCheck />
                 </span>
-                Comprend une garderie
+                140€/mois d&apos;adhésion
               </li>
               <li className="flex items-center ">
                 <span className="text-primary text-xl mr-2">
                   <FaCheck />
                 </span>
-                Comprend une cantine
+                60€/ans frais pédagogique
               </li>
               <li className="flex items-center ">
                 <span className="text-primary text-xl mr-2">
                   <FaCheck />
                 </span>
-                Comprend une réduction de 25% sur le prix de l&apos;inscription
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 bg-purple text-white p-6 rounded-lg max-w-xl shadow-lg">
-          <h4 className="text-2xl font-title ">Frais d’inscription</h4>
-          <div>
-            <h5 className="text-4xl font-title ">
-              <span className=" text-primary">750 €</span>/ans
-            </h5>
-            <h6 className="text-2xl font-title ">pour votre premier enfant</h6>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quos.
-          </p>
-          <div className="py-2">
-            <ul className="flex flex-col gap-2">
-              <li className="flex items-center">
-                <span className="text-primary text-xl mr-2">
-                  <FaCheck />
-                </span>
-                Comprend une garderie
-              </li>
-              <li className="flex items-center ">
-                <span className="text-primary text-xl mr-2">
-                  <FaCheck />
-                </span>
-                Comprend une cantine
-              </li>
-              <li className="flex items-center ">
-                <span className="text-primary text-xl mr-2">
-                  <FaCheck />
-                </span>
-                Comprend une réduction de 25% sur le prix de l&apos;inscription
+                225€/an cotisation fédération Calandreta
               </li>
             </ul>
           </div>

@@ -1,7 +1,7 @@
 "use client";
 import { Section, OurValuesCard } from "@/components";
 import Image from "next/image";
-import { educationalMaterials } from "@/data/EducationMaterials.data.json";
+import educationalMaterialsData from "@/data/EducationMaterials.data.json";
 import { motion } from "framer-motion";
 
 export const EducationalMaterials = () => {
@@ -28,7 +28,7 @@ export const EducationalMaterials = () => {
         </div>
         <div className="flex flex-col xl:flex-row gap-8 lg:gap-16 flex-1 items-center justify-around w-full overflow-hidden">
           <div className="flex flex-col gap-3 lg:gap-10 items-center justify-center ">
-            {educationalMaterials.slice(0, 4).map((feature, index) => (
+            {educationalMaterialsData.educationalMaterials.slice(0, 4).map((feature, index) => (
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -57,7 +57,7 @@ export const EducationalMaterials = () => {
             className="max-w-[450px] w-[80%] border-t-2 border-primary  rounded-full p-6"
           />
           <div className="flex flex-col gap-3 lg:gap-10 items-center justify-center ">
-            {educationalMaterials.slice(4, 8).map((feature, index) => (
+            {educationalMaterialsData.educationalMaterials.slice(4, 8).map((feature, index) => (
               <motion.div
                 initial={{ opacity: 0, x: 100 }}
                 whileInView={{ opacity: 1, x: 0 }}

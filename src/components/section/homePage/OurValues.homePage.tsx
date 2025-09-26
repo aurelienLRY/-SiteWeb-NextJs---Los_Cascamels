@@ -1,6 +1,6 @@
 import { Section, OurValuesCard } from "@/components";
 import Image from "next/image";
-import { features } from "@/data/features.json";
+import featuresData from "@/data/features.json";
 import { motion } from "framer-motion";
 
 export const OurValues = () => {
@@ -21,7 +21,7 @@ export const OurValues = () => {
       </motion.div>
       <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 flex-1 items-center justify-center w-full ">
         <div className="flex flex-col gap-3 lg:gap-10 items-center justify-center">
-          {features.slice(0, 3).map((feature, index) => (
+          {featuresData.features && featuresData.features.slice(0, 3).map((feature, index) => (
             <motion.div
               key={feature.title}
               initial={{ opacity: 0, x: -100 }}
@@ -49,7 +49,7 @@ export const OurValues = () => {
           className="max-w-[400px] w-[80%] "
         />
         <div className="flex flex-col gap-3 lg:gap-10 items-center justify-center">
-          {features.slice(3, 6).map((feature, index) => (
+          {featuresData.features.slice(3, 6).map((feature, index) => (
             <motion.div
               key={feature.title}
               initial={{ opacity: 0, x: 100 }}

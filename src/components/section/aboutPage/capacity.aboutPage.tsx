@@ -33,7 +33,7 @@ export const Capacity = () => {
           </p>
         </div>
       </motion.div>
-      <div className="flex flex-col lg:flex-row  gap-8 justify-center items-center max-w-[1400px]">
+      <div className="flex flex-col xl:flex-row  gap-8  max-w-[1400px]">
         {classCardData.map((card, index) => (
           <ClassCard key={`classCard-${index}`} {...card} index={index} />
         ))}
@@ -60,6 +60,7 @@ const ClassCard = ({
         ease: "easeInOut",
         delay: 0.3 * (index / 0.8),
       }}
+      className="w-full "
     >
       <Card
         title={title}
@@ -75,16 +76,17 @@ const classCardData = [
   {
     title: "PS-MS-GS",
     description:
-      "Une classe de maternelle qui accueille une vingtaine d'enfants de la Toute Petite Section à la Grande Section selon les années. Ce multiniveau favorise le développement de l'autonomie, la communication entre les générations, un apprentissage facilité des fondamentaux et une opportunité de trouver sa place. Une classe spacieuse, lumineuse, sous les arbres et face aux vignes offre à tous un cadre idéal !",
+      "La classe de maternelle accueille une vingtaine d’enfants de la Toute Petite Section à la Grande Section. Le fonctionnement en multi-niveaux favorise autonomie, entraide et apprentissage naturel des fondamentaux. Dans un cadre spacieux et lumineux, sous les arbres et face aux vignes, chaque enfant trouve sa place et évolue à son rythme.",
   },
   {
-    title: "CP-CE1",
+    title: "CP-CE2",
     description:
-      "Notre classe de CP-CE1, d'une capacité de 20 enfants. Cette classe est composée de 5 filles et 5 garçons. Elle est encadrée par une équipe pédagogique de 2 adultes.",
+      "Cette classe regroupe les élèves du CP au CE2 dans un cadre d’apprentissage coopératif et institutionnel. La semaine est rythmée par des moments d’échanges, de travail en équipe et par le projet de l’école du dehors : un après-midi par semaine en pinède aménagée pour les classes. Les enfants participent aussi au projet apicole de l’école, découvrant concrètement le travail de l’apiculteur, de la création des essaims à l’extraction du miel.",
   },
   {
     title: "CE2-CM2",
     description:
-      "Notre classe de CE2-CM2, d'une capacité de 20 enfants. Cette classe est composée de 5 filles et 5 garçons. Elle est encadrée par une équipe pédagogique de 2 adultes.",
+      "La classe de CE2-CM2 accueille une vingtaine d’élèves dans un environnement favorisant l’autonomie et la coopération. Encadrés par deux adultes, les enfants travaillent en petits groupes, s’entraident et approfondissent leurs apprentissages. La pédagogie active et les projets communs avec les autres classes permettent à chacun de développer ses compétences tout en s’épanouissant au sein de la vie collective.",
   },
 ];
+

@@ -86,15 +86,15 @@ export const PedagoTeamCard = ({
         <Image
           src={urlImage}
           alt={`Photo de ${name}`}
-          width={200}
-          height={600}
-          className="object-cover h-full"
+          width={300}
+          height={300}
+          className="object-cover   aspect-square rounded-2xl"
           loading="lazy"
         />
       </div>
 
       <div
-        className={`bg-${color} rounded-2xl p-6 flex flex-col justify-between w-fit max-w-[250px] relative`}
+        className={`bg-${color} rounded-2xl p-6 flex flex-col justify-between w-fit relative`}
       >
         <svg
           className={`absolute -left-4 top-6 rotate-180 text-${color}`}
@@ -106,7 +106,7 @@ export const PedagoTeamCard = ({
           <path d="M16 22.5L0 0L0 45L16 22.5Z" fill="currentColor" />
         </svg>
 
-        <div>
+        <div className="min-w-[250px]">
           <h2 className="text-white text-2xl font-bold mb-1">{name}</h2>
           <h3 className="text-white/80 text-xl mb-4">{role}</h3>
           <hr className="border-0 border-t-2 border-dotted border-primary my-4 max-w-[150px]" />

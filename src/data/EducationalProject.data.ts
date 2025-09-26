@@ -7,42 +7,64 @@ export interface EducationalProject {
 
 export const educationalProjects: EducationalProject[] = [
   {
-    title: "Petits apiculteurs en herbe",
+    title: "L’école du dehors",
     description: [
-      "Les enfants deviennent de véritables petits apiculteurs ! Grâce aux ruches installées dans l’école, ils découvrent le monde fascinant des abeilles tout en participant activement à l’entretien des colonies. Accompagnés à chaque, ils apprennent à observer, respecter et comprendre le rôle essentiel de ces insectes dans notre environnement.",
-      "Ce projet pédagogique vivant et différencié permet d’aborder de nombreuses notions (biologie, écologie, coopération…) tout en cultivant la curiosité, le sens des responsabilités et le lien à la nature."
+      "Chaque semaine, nous nous rendons dans une pinède proche de l’école pour y vivre une journée d’apprentissage au plus près de la nature. C’est l’école du dehors.",
+      "Ce temps permet aux enfants d’observer la nature, de lire le paysage, de construire des cabanes, de faire du landart, et d’installer des abris pour les petites bêtes.",
+      "Nous visitons aussi les ruches et suivons le travail des abeilles dans leur milieu naturel.",
+      "Cette expérience aide les enfants à se reconnecter au monde naturel, à travailler ensemble et à apprendre autrement."
     ],
     classroom: "L'école",
     image: "/img/de-la-ruche-au-miel.webp",
   },
   {
-    title: "Biodiversité Occitane",
+    title: "Le jardin pédagogique",
     description: [
-      "Ce projet vise à promouvoir la langue, la culture et l’histoire occitanes. Les enfants participeront à des créations contemporaines en matériaux recyclés, avec une restitution orale et visuelle en occitan. Ce sera aussi l’occasion d’inviter l’école publique, le village et nos partenaires à redécouvrir cette tradition.",
+      "Soutenu par la région, le jardin est un espace vivant où les élèves cultivent légumes, fruits et fleurs en pleine terre.",
+      "Ce projet relie sciences, écologie et citoyenneté, tout en valorisant les efforts de chacun et en créant un lieu de partage entre élèves et familles."
     ],
-    classroom: "Primaire",
-    image: "/img/Kids2.webp",
+    classroom: "L'école",
+    image: "/img/Le_jardin_pedagogique.webp",
+  },
+  {
+    title: "Lo mercat de Nadal",
+    description: [
+      "Depuis plus de 12 ans, le marché de Noël valorise les créations artisanales des élèves, souvent réalisées à partir de matériaux recyclés.",
+      "Événement festif et solidaire, il associe créativité et gestion de projet, et permet de financer ateliers, sorties et matériel pédagogique."
+    ],
+    classroom: "L'école",
+    image: "/img/mercat-de-nadal.webp",
   },
   {
     title: "Vendanges",
     description: [
-      "Depuis plusieurs années, nous organisons des vendanges pour nos élèves. L'occasion de découvrir le travail des vignerons , le processus de la vinification.",
+      "Les élèves participent chaque année aux vendanges et découvrent le métier de vigneron ainsi que les étapes de la vinification."
     ],
     classroom: "Primaire",
-    image: "/img/vendanges.webp",
+    image: "/img/Vendanges_2025.webp",
   },
   {
-    title: "Des enfants et des arbres",
+    title: "La fèsta de la patz",
     description: [
-      "Les enfants participent à la plantation d'arbres dans le village de  Félines Minervois. ",
+      "Chaque 21 septembre, les élèves se rassemblent autour de l’arbre de la paix planté dans la cour et y déposent mots doux et symboles.",
+      "Ce rituel développe coopération, respect et vivre-ensemble tout en renforçant les apprentissages scolaires."
     ],
     classroom: "CP à CM2",
     image: "/img/des-enfants-et-des-arbres.webp",
   },
   {
+    title: "Carnaval es arribat !",
+    description: [
+      "À la fin de l’hiver, l’école célèbre le carnaval : création du bonhomme, écriture du jugement, fabrication de carabènes et déambulation en musique.",
+      "Un projet collectif qui mêle traditions locales, créativité et apprentissages transversaux dans la joie du printemps retrouvé."
+    ],
+    classroom: "L'école",
+    image: "/img/LosCascamels-Carnaval.webp",
+  },
+  {
     title: "Découverte des métiers de la ferme",
     description: [
-      "En colaboaration avec  l’élevage d’Anaïs de la chèvrerie de la Broutade à Félines  ",
+      "En partenariat avec la chèvrerie de la Broutade à Félines, les élèves découvrent les animaux, les savoir-faire agricoles et la vie à la ferme."
     ],
     classroom: "CP à CM2",
     image: "/img/les-metiers-de-la-ferme.webp",

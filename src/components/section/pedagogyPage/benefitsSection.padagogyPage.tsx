@@ -21,7 +21,7 @@ export const BenefitsSection = () => {
             <EducationProjectCard
               key={`educational-project-${index}`}
               {...project}
-              className={` ${bgColors[index]}`}
+              className={` ${bgColors[index % bgColors.length]}`}
             />
           )
         )}
