@@ -22,7 +22,6 @@ interface NavItem {
 const NAV_ITEMS: NavItem[] = [
   { href: "/", label: "Accueil" },
   { href: "/contact", label: "Contact" },
-  { href: "#", label: "Blog" },
   { href: "/faq", label: "FAQ" },
   { href: "/mention-legal", label: "Mentions légales" },
 ];

@@ -81,14 +81,14 @@ export const PedagoTeamCard = ({
   };
 
   return (
-    <div className="flex  max-w-[800px] gap-2">
-      <div className="rounded-2xl  overflow-hidden flex-shrink-0 h-full">
+    <div className="flex flex-col lg:flex-row max-w-[800px] gap-2">
+      <div className="rounded-2xl  overflow-hidden  h-full">
         <Image
           src={urlImage}
           alt={`Photo de ${name}`}
           width={300}
           height={300}
-          className="object-cover   aspect-square rounded-2xl"
+          className="object-cover aspect-square rounded-2xl"
           loading="lazy"
         />
       </div>
@@ -97,7 +97,7 @@ export const PedagoTeamCard = ({
         className={`bg-${color} rounded-2xl p-6 flex flex-col justify-between w-fit relative`}
       >
         <svg
-          className={`absolute -left-4 top-6 rotate-180 text-${color}`}
+          className={`absolute  lg:-left-4 -top-6 lg:top-6 -rotate-90 lg:rotate-180 text-${color}`}
           width="16"
           height="45"
           viewBox="0 0 16 45"

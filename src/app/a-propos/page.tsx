@@ -24,7 +24,7 @@ const PEDAGO_TEAM = [
   {
     name: "Frédéric",
     role: "instituteur CP à CE2",
-    urlImage: "/img/fred.webp",
+    urlImage: "/img/Fred.webp",
     color: "purple",
     description:
       "Je suis enseignant dans les écoles Calandreta depuis 20 ans et j’ai rejoint le projet de l’école de Rieux voilà deux ans. Je suis passionné d’occitan, de  français, d’espagnol deux, de très belles langues romanes. J’aime chanter avec les élèves dans de nombreuses langues et faire des sports collectifs. Je suis d’autres part, apiculteur amateur, et je me plais de transmettre aux enfants tout le savoir toutes les connaissances que j’ai dans ce domaine. J’aime voir avancer, grandir, rire, en un mot apprendre les enfants dont j’ai la charge pendant une ou plusieurs années scolaires.",
@@ -32,13 +32,9 @@ const PEDAGO_TEAM = [
   {
     name: "Cindy",
     role: "institutrice CE2 à CM2",
-    urlImage: "/img/cindy.webp",
+    urlImage: "/img/Cindy.webp",
     color: "pink",
-    socialLinks: {
-      facebook: "https://www.facebook.com/cedric.leon.7",
-      linkedin: "https://www.linkedin.com/cedricleon",
-      instagram: "https://www.instagram.com/cedricleon",
-    },
+ 
   },
 ];
 
