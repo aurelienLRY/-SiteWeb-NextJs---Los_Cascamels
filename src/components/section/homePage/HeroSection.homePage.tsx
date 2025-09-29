@@ -14,12 +14,13 @@ export const HeroSection = () => {
         showTopClouds: true,
       }}
     >
-      <div className="flex  flex-col items-end justify-center ">
+
+      <div className="flex  flex-col items-end justify-center z-50   ">
         <motion.div
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="flex flex-col items-center "
+          className="flex flex-col items-center bg-blue-500 "
         >
           <p className="text-xl md:text-2xl text-center text-white font-subtitle">
             Bienvenue à
@@ -59,6 +60,7 @@ export const HeroSection = () => {
           </div>
         </motion.div>
       </div>
+  
       <div className=" hidden md:flex max-h-[500px] lg:max-h-[800px]">
         <Image
           src="/img/Fly1.webp"

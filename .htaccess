@@ -1,0 +1,7 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/gipo7266/public_html/los-cascamels"
+PassengerBaseURI "/"
+PassengerNodejs "/home/gipo7266/nodevenv/public_html/los-cascamels/22/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END

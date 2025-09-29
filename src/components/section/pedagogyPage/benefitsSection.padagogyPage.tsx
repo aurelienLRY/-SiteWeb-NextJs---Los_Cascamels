@@ -22,6 +22,7 @@ export const BenefitsSection = () => {
               key={`educational-project-${index}`}
               {...project}
               className={` ${bgColors[index % bgColors.length]}`}
+              maxLines={5}
             />
           )
         )}

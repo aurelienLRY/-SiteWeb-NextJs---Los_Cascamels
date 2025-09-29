@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   keywords: [
     "Los Cascamèls",
     "Calendrette",
-    "Rieux-Minervois",
+    " école Rieux-Minervois",
     "École primaire",
     "École élémentaire",
     "École éducative",

@@ -37,7 +37,7 @@ export const Section = ({
   ...props
 }: ISectionProps) => {
   return (
-    <section className={`relative px-8 lg:px-16 py-24 ${className}`} {...props}>
+    <section className={`relative px-4 lg:px-16 py-24 ${className}`} {...props}>
       {showTopClouds && (
         <div className="absolute -top-1 left-0 w-full overflow-hidden z-20">
           <Clouds className={`w-full ${cloudsColor}`} />
