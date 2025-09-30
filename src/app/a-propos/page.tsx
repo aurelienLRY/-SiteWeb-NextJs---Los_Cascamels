@@ -16,8 +16,8 @@ const PEDAGO_TEAM = [
   {
     name: "Fanette",
     role: "Directrice & institutrice PS à GS",
-    urlImage: "/img/portrait/portrait_F_1.webp",
-    color: "bleuRoyale",
+    urlImage: "/img/Fanette.webp",
+    color: "green",
     description:
       "Regenta de vocation, je me rends au travail avec joie, et travailler avec les enfants me procure de grandes satisfactions. Donner aux enfants le plaisir de venir à l'école et l'envie d'apprendre fait partie de mes priorités. Pour ce faire, je m'appuie essentiellement sur la pédagogie institutionnelle, le jeu et les projets.",
   },
@@ -25,7 +25,7 @@ const PEDAGO_TEAM = [
     name: "Frédéric",
     role: "instituteur CP à CE2",
     urlImage: "/img/Fred.webp",
-    color: "purple",
+    color: "pink",
     description:
       "Je suis enseignant dans les écoles Calandreta depuis 20 ans et j’ai rejoint le projet de l’école de Rieux voilà deux ans. Je suis passionné d’occitan, de  français, d’espagnol deux, de très belles langues romanes. J’aime chanter avec les élèves dans de nombreuses langues et faire des sports collectifs. Je suis d’autres part, apiculteur amateur, et je me plais de transmettre aux enfants tout le savoir toutes les connaissances que j’ai dans ce domaine. J’aime voir avancer, grandir, rire, en un mot apprendre les enfants dont j’ai la charge pendant une ou plusieurs années scolaires.",
   },
@@ -33,7 +33,7 @@ const PEDAGO_TEAM = [
     name: "Cindy",
     role: "institutrice CE2 à CM2",
     urlImage: "/img/Cindy.webp",
-    color: "pink",
+    color: "purple",
  
   },
 ];

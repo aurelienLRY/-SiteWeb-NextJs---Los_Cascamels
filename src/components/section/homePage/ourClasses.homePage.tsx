@@ -66,7 +66,7 @@ const OurClassesCard = ({
 }) => {
   return (
     <div className="relative w-full max-w-[550px] rounded-2xl mb-36 ">
-      <div className="w-full h-[250px] relative">
+      <div className="w-full h-[350px] relative">
         <Image
           src={urlPhoto}
           alt={altPhoto}
@@ -88,7 +88,7 @@ const OurClassesCard = ({
 const classOrganization = [
   {
     altPhoto: "Une photo illustrant une classe maternelle dynamique.",
-    urlPhoto: "https://picsum.photos/seed/picsum/600",
+    urlPhoto: "/img/Los-cascamels-classe_PMS.webp",
     titre: "PS, MS, GS",
     description:
       "Un espace chaleureux et sécurisé pour les plus jeunes, propice à l’éveil et à la découverte.",
@@ -96,7 +96,7 @@ const classOrganization = [
   },
   {
     altPhoto: "Une photo montrant des élèves en apprentissage interactif.",
-    urlPhoto: "https://picsum.photos/seed/picsum/600",
+    urlPhoto: "/img/Los-cascamels-classe_cp.webp",
     titre: "CP, CE1, CE2",
     description:
       "Des activités variées pour développer les compétences fondamentales et encourager la curiosité.",
@@ -104,7 +104,7 @@ const classOrganization = [
   },
   {
     altPhoto: "Une photo d’un groupe d’élèves collaborant sur un projet.",
-    urlPhoto: "https://picsum.photos/seed/picsum/600",
+    urlPhoto: "/img/Los-cascamels-classe_CE2-CM2.webp",
     titre: "CE2, CM1, CM2",
     description:
       "Un environnement stimulant pour préparer les élèves à la transition vers le collège tout en renforçant leur autonomie.",

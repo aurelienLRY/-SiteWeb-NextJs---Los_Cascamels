@@ -2,12 +2,12 @@ import { ParallaxSection } from "@/components";
 export const LearningLinguisticSection = () => {
   return (
     <ParallaxSection
-      className=" bg-red min-h-[80vh] flex justify-center items-center "
+      className=" bg-red/60 min-h-[80vh] flex justify-center items-center "
       showTopClouds
-      backgroundImage="/img/educator-teaching.webp"
+      backgroundImage="/img/Los-cascamels-00900.webp"
       opacity="opacity-10"
     >
-      <article className="flex flex-col gap-5  w-full max-w-[1200px]  text-center md:text-start bg-red/30 backdrop-blur-lg rounded-xl p-2 text-white ">
+      <article className="flex flex-col gap-5  w-full max-w-[1200px]  text-center md:text-start   rounded-xl p-2 text-white ">
         <div className="flex flex-col ">
           <h2 className="font-subtitle text-xl md:text-2xl text-primary">
             L’apprentissage par l’immersion linguistiquex

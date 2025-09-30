@@ -15,7 +15,7 @@ export const HeroSectionAboutPage = () => {
       <div className="flex flex-col xl:flex-row gap-8 justify-around items-center max-w-[1600px]">
         <aside className="  w-full xl:w-1/2 rounded-3xl overflow-hidden">
           <Image
-            src="/img/school-1.webp"
+            src="/img/Los-cascamels-00825.webp"
             alt="Photo de l'école Los Cascamèls"
             width={800}
             height={400}

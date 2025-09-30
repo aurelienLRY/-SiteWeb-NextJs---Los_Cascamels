@@ -82,7 +82,7 @@ export const PedagoTeamCard = ({
 
   return (
     <div className="flex flex-col lg:flex-row max-w-[800px] gap-2">
-      <div className="rounded-2xl  overflow-hidden  h-full">
+      <div className="rounded-2xl  overflow-hidden max-h-[300px] max-w-[300px] flex-1">
         <Image
           src={urlImage}
           alt={`Photo de ${name}`}
@@ -94,7 +94,7 @@ export const PedagoTeamCard = ({
       </div>
 
       <div
-        className={`bg-${color} rounded-2xl p-6 flex flex-col justify-between w-fit relative`}
+        className={`bg-${color} rounded-2xl p-6 flex flex-1 flex-col justify-between w-fit relative`}
       >
         <svg
           className={`absolute  lg:-left-4 -top-6 lg:top-6 -rotate-90 lg:rotate-180 text-${color}`}
@@ -106,7 +106,7 @@ export const PedagoTeamCard = ({
           <path d="M16 22.5L0 0L0 45L16 22.5Z" fill="currentColor" />
         </svg>
 
-        <div className="min-w-[250px]">
+        <div className="min-w-[250px] ">
           <h2 className="text-white text-2xl font-bold mb-1">{name}</h2>
           <h3 className="text-white/80 text-xl mb-4">{role}</h3>
           <hr className="border-0 border-t-2 border-dotted border-primary my-4 max-w-[150px]" />

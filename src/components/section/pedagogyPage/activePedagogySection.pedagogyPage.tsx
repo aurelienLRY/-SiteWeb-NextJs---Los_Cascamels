@@ -14,10 +14,7 @@ export const ActivePedagogySection = () => {
           </h3>
         </div>
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          quos.
-        </p>
+      
         <div className="flex flex-col lg:flex-row gap-2 lg:gap-5">
           {contentItems.map((item, index) => (
             <Card
