@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   keywords: [
     "Los Cascamèls",
     "Calendrette",
-    " école Rieux-Minervois",
+    "école Rieux-Minervois",
     "École primaire",
     "École élémentaire",
     "École éducative",
@@ -14,6 +14,8 @@ export const metadata: Metadata = {
     "École enracinée dans la culture occitane",
     "École bilingue",
   ],
+
+  
 
   authors: [{ name: "Calandreta Los Cascamèls" }],
   openGraph: {
