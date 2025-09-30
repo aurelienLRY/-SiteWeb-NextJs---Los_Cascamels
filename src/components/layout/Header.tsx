@@ -42,7 +42,7 @@ const STYLES = {
   navMobile: "flex flex-col w-full h-full bg-white",
   list: "flex gap-6",
   listMobile: "flex flex-col w-full pt-8",
-  header: "h-10 lg:h-20 relative bg-white  z-50",
+  header: "h-10 lg:h-20 relative bg-white  z-999",
   container: "flex items-center justify-center h-full max-w-7xl mx-auto px-4",
   hamburger: "md:hidden fixed bottom-6 right-6 flex flex-col justify-center items-center w-14 h-14 bg-primary text-white rounded-full shadow-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 z-50",
   hamburgerLine: "w-6 h-0.5 bg-white transition-all duration-300",

@@ -1,6 +1,5 @@
 "use client";
 import { Section } from "@/components";
-import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -31,20 +30,11 @@ export const OurClassesHomePage = () => {
       </div>
 
       <div className="flex flex-col md:flex-row gap-5 md:gap-10 flex-1 items-center justify-center w-full ">
-        <Link href="/a-propos">
-          <Button color="primary" className=" font-title" size="lg">
-            Découvrez notre organisation
-          </Button>
+        <Link href="/a-propos" className="text-white font-title mt-5 bg-primary rounded-3xl p-4 flex items-center gap-2">
+          Découvrez notre organisation
         </Link>
-        <Link href="/contact">
-          <Button
-            color="secondary"
-            className=" font-title hidden md:block"
-            size="lg"
-            variant="light"
-          >
-            Inscrire votre enfant
-          </Button>
+        <Link href="/contact" className=" font-title mt-5 text-secondary  hover:text-white hover:bg-secondary  transition-all duration-300 rounded-3xl p-4 hidden md:block ">
+          Inscrire votre enfant
         </Link>
       </div>
     </Section>

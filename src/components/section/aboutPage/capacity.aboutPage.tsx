@@ -34,7 +34,7 @@ export const Capacity = () => {
           </p>
         </div>
       </motion.div>
-      <div className="flex flex-col justify-center items-center xl:flex-row  gap-8   container mx-auto">
+      <div className="flex flex-col gap-44 xl:gap-8  justify-center items-center xl:flex-row     container mx-auto">
         {classCardData.map((card, index) => (
           <ClassCard key={`classCard-${index}`} {...card} index={index} />
         ))}

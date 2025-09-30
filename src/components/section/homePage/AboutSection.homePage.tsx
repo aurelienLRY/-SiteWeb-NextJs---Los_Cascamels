@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Link } from "@nextui-org/react";
+import {  Link } from "@nextui-org/react";
 import { Section } from "@/components";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -64,14 +64,9 @@ export const AboutSection = () => {
             le monde et enracinée dans les traditions régionales.
           </p>
 
-          <Link href="/a-propos">
-            <Button
-              color="primary"
-              size="lg"
-              className="text-white font-title mt-5"
-            >
-              En savoir plus
-            </Button>
+          <Link href="/a-propos" className="text-white font-title mt-5 bg-primary rounded-3xl p-4 flex items-center gap-2">
+         
+            En savoir plus
           </Link>
         </motion.div>
       </article>

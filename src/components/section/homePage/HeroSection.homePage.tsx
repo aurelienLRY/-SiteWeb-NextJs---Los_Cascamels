@@ -15,7 +15,7 @@ export const HeroSection = () => {
       }}
     >
 
-      <div className="flex  flex-col items-end justify-center z-50   ">
+      <div className="flex  flex-col items-end justify-center z-10   ">
         <motion.div
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -37,15 +37,9 @@ export const HeroSection = () => {
             culture occitane.
           </p>
           <div className="flex gap-5 items-center justify-center">
-            <Link href="#pedagogy">
-              <Button
-                color="primary"
-                className="text-white font-title mt-5"
-                size="lg"
-              >
+            <Link href="#pedagogy" className="text-white font-title mt-5 bg-primary rounded-3xl p-4 flex items-center gap-2">  
                 <FaRegPaperPlane />
                 Découvrez notre pédagogie
-              </Button>
             </Link>
             <Link href="/contact">
               <Button

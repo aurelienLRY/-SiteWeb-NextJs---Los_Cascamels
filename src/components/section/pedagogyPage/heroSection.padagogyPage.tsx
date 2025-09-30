@@ -1,6 +1,6 @@
 "use client";
 import { HeroSection as HeroSectionLayout } from "@/components";
-import { Button, Link } from "@nextui-org/react";
+import {  Link } from "@nextui-org/react";
 
 export const HeroSectionPedagogyPage = () => {
   return (
@@ -25,15 +25,10 @@ export const HeroSectionPedagogyPage = () => {
           dans ses apprentissages et lui permet d’évoluer dans un cadre
           bienveillant et coopératif.
         </p>
-        <Link href="/contact">
-          <Button
-            color="primary"
-            size="lg"
-            className="text-white font-title mt-5"
-          >
-            Rencontrez notre équipe
-          </Button>
+        <Link href="/contact" className="text-white font-title mt-5 bg-primary rounded-3xl p-4 flex items-center gap-2">
+          Rencontrez notre équipe
         </Link>
+        
       </div>
     </HeroSectionLayout>
   );

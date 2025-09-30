@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@nextui-org/react";
 import { Section, Carousel, CarouselItem, DonorCard } from "@/components";
 import donorData from "@/data/donor.data.json";
 import Link from "next/link";
@@ -48,10 +47,9 @@ export const DonorSection = () => {
         <Link
           href="https://www.helloasso.com/associations/los-cascamels"
           target="_blank"
+          className="text-white font-title mt-5 bg-secondary rounded-3xl p-4 flex items-center gap-2"
         >
-          <Button className="bg-secondary text-white font-title" size="lg">
-            Faire un don
-          </Button>
+          Faire un don
         </Link>
       </div>
     </Section>

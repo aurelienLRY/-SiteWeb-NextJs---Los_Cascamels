@@ -1,6 +1,5 @@
 "use client";
 import { ParallaxSection, Card } from "@/components";
-import { Button } from "@nextui-org/react";
 import { ReactNode } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -42,10 +41,8 @@ export const OurPedagogy = () => {
           ))}
         </div>
 
-        <Link href="/notre-pedagogie">
-          <Button color="primary" className=" text-white font-title" size="lg">
-            Découvrir nos méthodes
-          </Button>
+        <Link href="/notre-pedagogie" className="text-white font-title mt-5 bg-primary rounded-3xl p-4 flex items-center gap-2">
+          Découvrir nos méthodes
         </Link>
       </article>
     </ParallaxSection>
