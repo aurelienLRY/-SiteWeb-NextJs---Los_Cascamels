@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev ",
-    "build": "next build",
+    "build": " next build",
     "start": "next start",
     "export": "next build",
-    "custom start": "node server.js",
+    "custom start": "NODE_OPTIONS='--max-old-space-size=2048 --max-semi-space-size=128' node server.js",
     "lint": "next lint"
   },
   "dependencies": {

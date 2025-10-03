@@ -39,13 +39,13 @@ export const Section = ({
   return (
     <section className={`relative px-4 lg:px-16 py-24 ${className}`} {...props}>
       {showTopClouds && (
-        <div className="absolute -top-1 left-0 w-full overflow-hidden z-20">
-          <Clouds className={`w-full ${cloudsColor}`} />
+        <div className="absolute top-0 left-0 w-full min-h-20  overflow-hidden z-20">
+          <Clouds className={`w-full  ${cloudsColor}`} />
         </div>
       )}
       {children}
       {showBottomClouds && (
-        <div className="absolute -bottom-1 left-0 w-full overflow-hidden z-20">
+        <div className="absolute bottom-0 left-0 w-full overflow-hidden z-20">
           <Clouds className={`w-full rotate-180 ${cloudsColor}`} />
         </div>
       )}

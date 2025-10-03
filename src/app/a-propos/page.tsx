@@ -34,7 +34,7 @@ const PEDAGO_TEAM = [
     role: "institutrice CE2 à CM2",
     urlImage: "/img/Cindy.webp",
     color: "purple",
- 
+    description: "Passionnée par l’enseignement, je mets tout en œuvre pour que les enfants prennent plaisir à venir à l’école et développent leur curiosité. Créative et habile de ses mains, j’aime accompagner les projets de l’école, notamment les marchés de Noël, et proposer des activités variées et ludiques. Disponible et attentive aux besoins des enfants et des parents, je veille à ce que chacun se sente soutenu et encouragé. Les mathématiques et les capsules pédagogiques sont mes outils pour rendre l’apprentissage concret et amusant."  
   },
 ];
 

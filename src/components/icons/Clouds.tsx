@@ -9,7 +9,7 @@ export const Clouds = ({ className = "" }: CloudsProps) => {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 283.5 27.8"
         preserveAspectRatio="xMidYMax slice"
-        className="w-full"
+        className="w-full min-h-16"
       >
         <path
           className="fill-current"

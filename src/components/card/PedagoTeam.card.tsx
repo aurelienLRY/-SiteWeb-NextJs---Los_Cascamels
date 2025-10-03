@@ -82,7 +82,7 @@ export const PedagoTeamCard = ({
 
   return (
     <div className="flex flex-col lg:flex-row max-w-[800px] gap-2">
-      <div className="rounded-2xl  overflow-hidden max-h-[300px] max-w-[300px] flex-1">
+      <div className="rounded-2xl  overflow-hidden ">
         <Image
           src={urlImage}
           alt={`Photo de ${name}`}

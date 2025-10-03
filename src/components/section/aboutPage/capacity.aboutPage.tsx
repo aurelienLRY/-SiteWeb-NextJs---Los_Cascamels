@@ -67,7 +67,7 @@ const ClassCard = ({
       }}
       className="w-full relative max-w-[550px] rounded-2xl mb-40"
     > 
-      <div className="w-full h-[350px] relative">
+      <div className="w-full  h-[350px] relative">
         <Image
           src={image}
           alt={title}
@@ -77,10 +77,12 @@ const ClassCard = ({
       </div>
    
       <div
-        className={`absolute -bottom-64 left-1/2 -translate-x-1/2 ${bgColor} border-t-3 border-white p-6 rounded-3xl text-white w-full max-w-[90%] h-[350px] shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex flex-col justify-between `}
+        className={`absolute -bottom-64 left-1/2 -translate-x-1/2 ${bgColor} border-t-3 border-white p-6 rounded-3xl text-white w-full max-w-[90%] min-h-[350px] h-fit   shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex flex-col `}
       >
-        <h4 className="!text-4xl font-title text-center mb-5">{title}</h4>
-        <p className="text-center flex-1 flex items-center  justify-center">{description}</p>
+        <h4 className="!text-4xl font-title text-center ">{title}</h4>
+        <hr className="border-t-2 border-dotted border-primary my-4  text-center min-w-[130px] w-full max-w-[150px] mx-auto" />
+
+        <p className="text-balance">{description}</p>
       </div>
     </motion.div>
   );
@@ -104,7 +106,7 @@ const classCardData = [
   {
     title: "CE2-CM2",
     description:
-      "La classe de CE2-CM2 accueille une vingtaine d'élèves dans un environnement favorisant l'autonomie et la coopération. Encadrés par deux adultes, les enfants travaillent en petits groupes, s'entraident et approfondissent leurs apprentissages. La pédagogie active et les projets communs avec les autres classes permettent à chacun de développer ses compétences tout en s'épanouissant au sein de la vie collective.",
+      "La classe de CE2-CM2 accueille une vingtaine d'élèves dans un environnement favorisant l'autonomie et la coopération. Encadrés par une institutrice, les enfants travaillent en petits groupes, s'entraident et approfondissent leurs apprentissages. La pédagogie active et les projets communs avec les autres classes permettent à chacun de développer ses compétences tout en s'épanouissant au sein de la vie collective.",
     image: "/img/Los-cascamels-classe_CE2-CM2.2.webp",
     bgColor: "bg-purple",
   },

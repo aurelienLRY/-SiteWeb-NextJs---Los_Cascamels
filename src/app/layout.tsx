@@ -51,7 +51,7 @@ export default function RootLayout({
       >
         <Provider>
           <Header />
-          <main className="min-h-[80vh]">{children}</main>
+          <main className="min-h-[80vh] overflow-x-clip">{children}</main>
           <Footer />
         </Provider>
       </body>
